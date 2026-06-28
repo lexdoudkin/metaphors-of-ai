@@ -93,24 +93,22 @@ ln(MX0-14,cy,MX1+14,cy,"rgba(255,255,255,0.34)",2,{"marker-start":"url(#ah)","ma
 function el(html){const t=document.createElement("template");t.innerHTML=html.trim();board.appendChild(t.content.firstChild);}
 const _tw=M.meta.title.split(' '); el('<div class="title">'+_tw[0]+'<br>'+_tw.slice(1).join(' ')+'</div>');
 el('<div class="subtitle">'+M.meta.subtitle+' <span class="cite">['+(M.meta.frameRefs||[M.meta.frameRef]).join(', ')+']</span></div>');
-// vertical axis (Threat): axis name at the upper arrow tip, poles top & bottom
-el('<div class="axn" style="top:'+(MY0-112)+'px;left:0;width:100%;text-align:center;">'+M.meta.axes.y.name+'</div>');
+// vertical axis poles (top & bottom)
 el('<div class="axt" style="top:'+(MY0-72)+'px;left:0;width:100%;text-align:center;">'+M.meta.axes.y.high+'</div>');
 el('<div class="axt" style="top:'+(MY1+50)+'px;left:0;width:100%;text-align:center;">'+M.meta.axes.y.low+'</div>');
-// horizontal axis (Potency): axis name at the right arrow tip, poles left & right
+// horizontal axis poles (left & right)
 el('<div class="axt" style="top:'+(cy-40)+'px;left:'+(MX0-2)+'px;">'+M.meta.axes.x.low+'</div>');
-el('<div class="axn" style="top:'+(cy-74)+'px;left:'+(MX1-320)+'px;width:320px;text-align:right;">'+M.meta.axes.x.name+'</div>');
 el('<div class="axt" style="top:'+(cy-40)+'px;left:'+(MX1-320)+'px;width:320px;text-align:right;">'+M.meta.axes.x.high+'</div>');
 const QP={blind_force:[MX0+16,MY0+18,'left'],overlord:[MX1-16,MY0+18,'right'],humble_tool:[MX0+16,MY1-128,'left'],protector:[MX1-16,MY1-128,'right']};
 for(const k in M.meta.quadrants){const q=M.meta.quadrants[k],p=QP[k];
   const pos=p[2]=='left'?'left:'+p[0]+'px;width:400px;text-align:left;':'left:'+(p[0]-400)+'px;width:400px;text-align:right;';
   el('<div class="ql" style="top:'+p[1]+'px;'+pos+'"><b>'+q.label+'</b></div>');}
 el('<div class="foot">Charlie Stein &amp; Alexander Doudkin, 2026  ·  inspired by Disnovation.org  ·  image credits in the accompanying essay</div>');
-el('<div style="position:absolute;left:52px;top:2120px;width:2456px;height:1px;background:#2b2b2b;"></div>');
-el('<div class="refhead" style="left:52px;top:2140px;">References &amp; further reading</div>');
-el('<div class="refnote" style="left:412px;top:2142px;width:1400px;">The metaphors are drawn from the literature; each entry lists a source and a short link to it.</div>');
+el('<div style="position:absolute;left:52px;top:2200px;width:2456px;height:1px;background:#2b2b2b;"></div>');
+el('<div class="refhead" style="left:52px;top:2220px;">References &amp; further reading</div>');
+el('<div class="refnote" style="left:412px;top:2222px;width:1400px;">The metaphors are drawn from the literature; each entry lists a source and a short link to it.</div>');
 (function(){const c=document.createElement("div");
-  c.style.cssText="position:absolute;left:52px;top:2180px;width:2456px;column-count:6;column-gap:38px;";
+  c.style.cssText="position:absolute;left:52px;top:2262px;width:2456px;column-count:6;column-gap:38px;";
   M.meta.bibliography.forEach(b=>{const e=document.createElement("div");e.className="bibentry";
     e.innerHTML='<span class="bn">['+b.n+']</span> '+b.ref+(b.link?' <a class="bln" href="'+(b.url||('https://'+b.link))+'">'+b.link+'</a>':'');c.appendChild(e);});
   board.appendChild(c);})();
@@ -130,7 +128,7 @@ function layout(){
     [MX0+8,MY1-150,MX0+400,MY1-2],    // bot-left  Humble servant
     [MX1-400,MY1-150,MX1-8,MY1-2],    // bot-right Omnipotent protector
     [MX0-6,cy-54,MX0+200,cy+16],      // axis label: WEAK
-    [MX1-240,cy-88,MX1+6,cy+16],      // axis label: OMNIPOTENT + POTENCY
+    [MX1-240,cy-54,MX1+6,cy+16],      // axis label: OMNIPOTENT
   ];
   for(let it=0;it<560;it++){
     for(const a of pts){a.cxp+=(a.tx-a.cxp)*0.05; a.cyp+=(a.ty-a.cyp)*0.05;}
