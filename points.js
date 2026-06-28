@@ -170,267 +170,320 @@ window.MATRIX = {
       {
         "n": 1,
         "ref": "Amodei, D. (2024). “Machines of Loving Grace: How AI Could Transform the World for the Better.” Essay, darioamodei.com.",
-        "link": "darioamodei.com/machines-of-loving-grace"
+        "link": "darioamodei.com/machines-of-loving-grace",
+        "url": "https://darioamodei.com/machines-of-loving-grace"
       },
       {
         "n": 2,
         "ref": "Aschenbrenner, L. (2024). Situational Awareness: The Decade Ahead. situational-awareness.ai.",
-        "link": "situational-awareness.ai"
+        "link": "situational-awareness.ai",
+        "url": "https://situational-awareness.ai"
       },
       {
         "n": 3,
         "ref": "Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). “On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?” Proc. ACM FAccT ’21, 610–623.",
-        "link": "doi.org/10.1145/3442188.3445922"
+        "link": "doi.org/10.1145/3442188.3445922",
+        "url": "https://doi.org/10.1145/3442188.3445922"
       },
       {
         "n": 4,
         "ref": "Berkeley, E. C. (1949). Giant Brains, or Machines That Think. New York: John Wiley & Sons.",
-        "link": "archive.org"
+        "link": "archive.org",
+        "url": "https://archive.org"
       },
       {
         "n": 5,
         "ref": "Bostrom, N. (2014). Superintelligence: Paths, Dangers, Strategies. Oxford University Press.",
-        "link": "global.oup.com"
+        "link": "global.oup.com",
+        "url": "https://global.oup.com"
       },
       {
         "n": 6,
         "ref": "Brundage, M., et al. (2018). “The Malicious Use of Artificial Intelligence.” arXiv:1802.07228.",
-        "link": "arxiv.org/abs/1802.07228"
+        "link": "arxiv.org/abs/1802.07228",
+        "url": "https://arxiv.org/abs/1802.07228"
       },
       {
         "n": 7,
         "ref": "Bryson, J. J. (2010). “Robots Should Be Slaves.” In Close Engagements with Artificial Companions, 63–74. John Benjamins.",
-        "link": "benjamins.com"
+        "link": "benjamins.com",
+        "url": "https://benjamins.com"
       },
       {
         "n": 8,
         "ref": "Burrell, J. (2016). “How the Machine ‘Thinks’: Understanding Opacity in Machine Learning Algorithms.” Big Data & Society, 3(1).",
-        "link": "doi.org/10.1177/2053951715622512"
+        "link": "doi.org/10.1177/2053951715622512",
+        "url": "https://doi.org/10.1177/2053951715622512"
       },
       {
         "n": 9,
         "ref": "Čapek, K. (1920). R.U.R. (Rossum’s Universal Robots). Prague: Aventinum.",
-        "link": "gutenberg.org/ebooks/59112"
+        "link": "gutenberg.org/ebooks/59112",
+        "url": "https://gutenberg.org/ebooks/59112"
       },
       {
         "n": 10,
         "ref": "Chiang, T. (2023). “ChatGPT Is a Blurry JPEG of the Web.” The New Yorker, 9 Feb.",
-        "link": "newyorker.com"
+        "link": "newyorker.com",
+        "url": "https://newyorker.com"
       },
       {
         "n": 11,
         "ref": "Cognition AI (2024). “Introducing Devin, the First AI Software Engineer.”",
-        "link": "cognition.ai/blog/introducing-devin"
+        "link": "cognition.ai/blog/introducing-devin",
+        "url": "https://cognition.ai/blog/introducing-devin"
       },
       {
         "n": 12,
         "ref": "Cowen, T. (2013). Average Is Over: Powering America Beyond the Age of the Great Stagnation. New York: Dutton.",
-        "link": "penguinrandomhouse.com"
+        "link": "penguinrandomhouse.com",
+        "url": "https://penguinrandomhouse.com"
       },
       {
         "n": 13,
         "ref": "Crawford, K. (2021). Atlas of AI. New Haven: Yale University Press.",
-        "link": "yalebooks.yale.edu"
+        "link": "yalebooks.yale.edu",
+        "url": "https://yalebooks.yale.edu"
       },
       {
         "n": 14,
         "ref": "Frey, C. B., & Osborne, M. A. (2017). “The Future of Employment.” Technological Forecasting & Social Change, 114, 254–280.",
-        "link": "doi.org/10.1016/j.techfore.2016.08.019"
+        "link": "doi.org/10.1016/j.techfore.2016.08.019",
+        "url": "https://doi.org/10.1016/j.techfore.2016.08.019"
       },
       {
         "n": 15,
         "ref": "Goertzel, B. (2012). “Should Humanity Build a Global AI Nanny…?” Journal of Consciousness Studies, 19(1–2), 96–111.",
-        "link": "ingentaconnect.com"
+        "link": "ingentaconnect.com",
+        "url": "https://ingentaconnect.com"
       },
       {
         "n": 16,
         "ref": "Good, I. J. (1965). “Speculations Concerning the First Ultraintelligent Machine.” Advances in Computers, 6, 31–88.",
-        "link": "sciencedirect.com"
+        "link": "sciencedirect.com",
+        "url": "https://sciencedirect.com"
       },
       {
         "n": 17,
         "ref": "Gray, M. L., & Suri, S. (2019). Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass. Boston: HMH.",
-        "link": "ghostwork.info"
+        "link": "ghostwork.info",
+        "url": "https://ghostwork.info"
       },
       {
         "n": 18,
         "ref": "Harari, Y. N. (2016). Homo Deus: A Brief History of Tomorrow. London: Harvill Secker.",
-        "link": "ynharari.com"
+        "link": "ynharari.com",
+        "url": "https://ynharari.com"
       },
       {
         "n": 19,
         "ref": "Haraway, D. (1985). “A Cyborg Manifesto.” Socialist Review, 80, 65–108.",
-        "link": "archive.org"
+        "link": "archive.org",
+        "url": "https://archive.org"
       },
       {
         "n": 20,
         "ref": "Hicks, M. T., Humphries, J., & Slater, J. (2024). “ChatGPT Is Bullshit.” Ethics and Information Technology, 26(2), 38.",
-        "link": "doi.org/10.1007/s10676-024-09775-5"
+        "link": "doi.org/10.1007/s10676-024-09775-5",
+        "url": "https://doi.org/10.1007/s10676-024-09775-5"
       },
       {
         "n": 21,
         "ref": "Hubinger, E., et al. (2024). “Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training.” Anthropic. arXiv:2401.05566.",
-        "link": "arxiv.org/abs/2401.05566"
+        "link": "arxiv.org/abs/2401.05566",
+        "url": "https://arxiv.org/abs/2401.05566"
       },
       {
         "n": 22,
         "ref": "Jimenez, C. E., et al. (2024). “SWE-bench: Can Language Models Resolve Real-World GitHub Issues?” ICLR.",
-        "link": "arxiv.org/abs/2310.06770"
+        "link": "arxiv.org/abs/2310.06770",
+        "url": "https://arxiv.org/abs/2310.06770"
       },
       {
         "n": 23,
         "ref": "Kelly, K. (2010). What Technology Wants. New York: Viking.",
-        "link": "kk.org"
+        "link": "kk.org",
+        "url": "https://kk.org"
       },
       {
         "n": 24,
         "ref": "Keynes, J. M. (1930). “Economic Possibilities for Our Grandchildren.” In Essays in Persuasion (1931).",
-        "link": "gutenberg.net.au"
+        "link": "gutenberg.net.au",
+        "url": "https://gutenberg.net.au"
       },
       {
         "n": 25,
         "ref": "Kranzberg, M. (1986). “Technology and History: ‘Kranzberg’s Laws.’” Technology and Culture, 27(3), 544–560.",
-        "link": "doi.org/10.2307/3105385"
+        "link": "doi.org/10.2307/3105385",
+        "url": "https://doi.org/10.2307/3105385"
       },
       {
         "n": 26,
         "ref": "Kurzweil, R. (2005). The Singularity Is Near. New York: Viking.",
-        "link": "penguinrandomhouse.com"
+        "link": "penguinrandomhouse.com",
+        "url": "https://penguinrandomhouse.com"
       },
       {
         "n": 27,
         "ref": "Lakoff, G., & Johnson, M. (1980). Metaphors We Live By. University of Chicago Press.",
-        "link": "press.uchicago.edu"
+        "link": "press.uchicago.edu",
+        "url": "https://press.uchicago.edu"
       },
       {
         "n": 28,
         "ref": "Licklider, J. C. R. (1960). “Man-Computer Symbiosis.” IRE Trans. Human Factors in Electronics, HFE-1, 4–11.",
-        "link": "ieeexplore.ieee.org"
+        "link": "ieeexplore.ieee.org",
+        "url": "https://ieeexplore.ieee.org"
       },
       {
         "n": 29,
         "ref": "Mollick, E. (2024). Co-Intelligence: Living and Working with AI. New York: Portfolio.",
-        "link": "penguinrandomhouse.com"
+        "link": "penguinrandomhouse.com",
+        "url": "https://penguinrandomhouse.com"
       },
       {
         "n": 30,
         "ref": "Nardi, B. A., & O’Day, V. L. (1999). Information Ecologies: Using Technology with Heart. MIT Press.",
-        "link": "mitpress.mit.edu"
+        "link": "mitpress.mit.edu",
+        "url": "https://mitpress.mit.edu"
       },
       {
         "n": 31,
         "ref": "Ng, A. (2017). “Artificial Intelligence Is the New Electricity.” Keynote, Stanford GSB.",
-        "link": "gsb.stanford.edu"
+        "link": "gsb.stanford.edu",
+        "url": "https://gsb.stanford.edu"
       },
       {
         "n": 32,
         "ref": "O’Gieblyn, M. (2021). God, Human, Animal, Machine. New York: Doubleday.",
-        "link": "penguinrandomhouse.com"
+        "link": "penguinrandomhouse.com",
+        "url": "https://penguinrandomhouse.com"
       },
       {
         "n": 33,
         "ref": "Pasquale, F. (2015). The Black Box Society. Cambridge, MA: Harvard University Press.",
-        "link": "hup.harvard.edu"
+        "link": "hup.harvard.edu",
+        "url": "https://hup.harvard.edu"
       },
       {
         "n": 34,
         "ref": "Rahimi, A. (2017). “Machine Learning Has Become Alchemy.” NeurIPS Test-of-Time Award lecture.",
-        "link": "nips.cc"
+        "link": "nips.cc",
+        "url": "https://nips.cc"
       },
       {
         "n": 35,
         "ref": "Russell, S., et al. (2017). Slaughterbots [short film]. Future of Life Institute.",
-        "link": "autonomousweapons.org"
+        "link": "autonomousweapons.org",
+        "url": "https://autonomousweapons.org"
       },
       {
         "n": 36,
         "ref": "Russell, S. (2019). Human Compatible: Artificial Intelligence and the Problem of Control. New York: Viking.",
-        "link": "humancompatible.ai"
+        "link": "humancompatible.ai",
+        "url": "https://humancompatible.ai"
       },
       {
         "n": 37,
         "ref": "Shanahan, M. (2023). “Talking About Large Language Models.” arXiv:2212.03551 (Comm. ACM, 2024).",
-        "link": "arxiv.org/abs/2212.03551"
+        "link": "arxiv.org/abs/2212.03551",
+        "url": "https://arxiv.org/abs/2212.03551"
       },
       {
         "n": 38,
         "ref": "Shelley, M. (1818). Frankenstein; or, The Modern Prometheus. London: Lackington et al.",
-        "link": "gutenberg.org/ebooks/84"
+        "link": "gutenberg.org/ebooks/84",
+        "url": "https://gutenberg.org/ebooks/84"
       },
       {
         "n": 39,
         "ref": "Silverstone, R., & Haddon, L. (1996). “Design and the Domestication of ICTs.” In Communication by Design. Oxford UP.",
-        "link": "oup.com"
+        "link": "oup.com",
+        "url": "https://oup.com"
       },
       {
         "n": 40,
         "ref": "Suleyman, M., with Bhaskar, M. (2023). The Coming Wave. New York: Crown.",
-        "link": "the-coming-wave.com"
+        "link": "the-coming-wave.com",
+        "url": "https://the-coming-wave.com"
       },
       {
         "n": 41,
         "ref": "Tetlock, P. E., & Gardner, D. (2015). Superforecasting: The Art and Science of Prediction. New York: Crown.",
-        "link": "penguinrandomhouse.com"
+        "link": "penguinrandomhouse.com",
+        "url": "https://penguinrandomhouse.com"
       },
       {
         "n": 42,
         "ref": "Turing, A. M. (1950). “Computing Machinery and Intelligence.” Mind, 59(236), 433–460.",
-        "link": "doi.org/10.1093/mind/LIX.236.433"
+        "link": "doi.org/10.1093/mind/LIX.236.433",
+        "url": "https://doi.org/10.1093/mind/LIX.236.433"
       },
       {
         "n": 43,
         "ref": "Turkle, S. (2011). Alone Together. New York: Basic Books.",
-        "link": "sherryturkle.com"
+        "link": "sherryturkle.com",
+        "url": "https://sherryturkle.com"
       },
       {
         "n": 44,
         "ref": "Vallor, S. (2024). The AI Mirror. Oxford University Press.",
-        "link": "global.oup.com"
+        "link": "global.oup.com",
+        "url": "https://global.oup.com"
       },
       {
         "n": 45,
         "ref": "Vickers, B., & Allado-McDowell, K. (eds.) (2020). Atlas of Anomalous AI. London: Ignota Books.",
-        "link": "ignota.org"
+        "link": "ignota.org",
+        "url": "https://ignota.org"
       },
       {
         "n": 46,
         "ref": "Vinge, V. (1993). “The Coming Technological Singularity.” VISION-21 Symposium, NASA.",
-        "link": "edoras.sdsu.edu/~vinge"
+        "link": "edoras.sdsu.edu/~vinge",
+        "url": "https://edoras.sdsu.edu/~vinge"
       },
       {
         "n": 47,
         "ref": "Weizenbaum, J. (1976). Computer Power and Human Reason. San Francisco: W. H. Freeman.",
-        "link": "archive.org"
+        "link": "archive.org",
+        "url": "https://archive.org"
       },
       {
         "n": 48,
         "ref": "Wiener, N. (1960). “Some Moral and Technical Consequences of Automation.” Science, 131(3410), 1355–1358.",
-        "link": "doi.org/10.1126/science.131.3410.1355"
+        "link": "doi.org/10.1126/science.131.3410.1355",
+        "url": "https://doi.org/10.1126/science.131.3410.1355"
       },
       {
         "n": 49,
         "ref": "Wiener, N. (1964). God & Golem, Inc. Cambridge, MA: MIT Press.",
-        "link": "mitpress.mit.edu"
+        "link": "mitpress.mit.edu",
+        "url": "https://mitpress.mit.edu"
       },
       {
         "n": 50,
         "ref": "Winner, L. (1980). “Do Artifacts Have Politics?” Daedalus, 109(1), 121–136.",
-        "link": "jstor.org"
+        "link": "jstor.org",
+        "url": "https://jstor.org"
       },
       {
         "n": 51,
         "ref": "Wozniak, S. (2015). Remarks at the Freescale Technology Forum (reported in Time, June 2015).",
-        "link": "time.com"
+        "link": "time.com",
+        "url": "https://time.com"
       },
       {
         "n": 52,
         "ref": "Yampolskiy, R. V. (2020). “On Controllability of Artificial Intelligence.” arXiv:2008.04071.",
-        "link": "arxiv.org/abs/2008.04071"
+        "link": "arxiv.org/abs/2008.04071",
+        "url": "https://arxiv.org/abs/2008.04071"
       },
       {
         "n": 53,
         "ref": "Zuboff, S. (2019). The Age of Surveillance Capitalism. New York: PublicAffairs.",
-        "link": "publicaffairsbooks.com"
+        "link": "publicaffairsbooks.com",
+        "url": "https://publicaffairsbooks.com"
       }
     ],
     "frameRef": 27,

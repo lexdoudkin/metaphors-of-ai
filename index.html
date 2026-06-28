@@ -5,6 +5,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 <style>
   html,body{margin:0;background:#000;}
+  @page{size:2248px 2700px;margin:0;}
+  @media print{html,body{background:#000;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .board{margin:0 !important;box-shadow:none !important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}}
   .board{position:relative;width:2240px;height:2640px;margin:24px auto;background:#000;
     color:#fff;font-family:'Google Sans Text','Google Sans',Helvetica,Arial,sans-serif;overflow:hidden;
     box-shadow:0 18px 60px rgba(0,0,0,.7);}
@@ -46,7 +49,7 @@
   .bibentry{font-family:'Google Sans Text',sans-serif;font-size:10px;line-height:1.3;
     color:#8d8d8d;margin-bottom:7px;break-inside:avoid;}
   .bibentry .bn{color:#e8e8e8;font-weight:500;}
-  .bibentry .bln{color:#7c7c7c;}
+  .bibentry .bln{color:#8aa0c8;text-decoration:none;}
   .imgcred{font-family:'Google Sans Text',sans-serif;font-size:9.5px;line-height:1.3;
     color:#7e7e7e;margin-bottom:6px;break-inside:avoid;}
   .imgcred .ic{color:#cfcfcf;font-weight:500;}
@@ -91,7 +94,7 @@ el('<div class="refnote" style="left:412px;top:2052px;width:1400px;">The metapho
 (function(){const c=document.createElement("div");
   c.style.cssText="position:absolute;left:52px;top:2090px;width:2136px;column-count:5;column-gap:38px;";
   M.meta.bibliography.forEach(b=>{const e=document.createElement("div");e.className="bibentry";
-    e.innerHTML='<span class="bn">['+b.n+']</span> '+b.ref+(b.link?' <span class="bln">'+b.link+'</span>':'');c.appendChild(e);});
+    e.innerHTML='<span class="bn">['+b.n+']</span> '+b.ref+(b.link?' <a class="bln" href="'+(b.url||('https://'+b.link))+'">'+b.link+'</a>':'');c.appendChild(e);});
   board.appendChild(c);})();
 
 const pts=M.points.map(p=>({p,tx:MX0+p.position.nx*(MX1-MX0),ty:MY1-p.position.ny*(MY1-MY0),

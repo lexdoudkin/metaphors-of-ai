@@ -54,59 +54,61 @@ The map does not tell you which metaphor is correct. Its usefulness is the oppos
 
 ## References
 
-[1] Amodei, D. (2024). “Machines of Loving Grace: How AI Could Transform the World for the Better.” Essay, darioamodei.com. — darioamodei.com/machines-of-loving-grace  
-[2] Aschenbrenner, L. (2024). Situational Awareness: The Decade Ahead. situational-awareness.ai. — situational-awareness.ai  
-[3] Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). “On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?” Proc. ACM FAccT ’21, 610–623. — doi.org/10.1145/3442188.3445922  
-[4] Berkeley, E. C. (1949). Giant Brains, or Machines That Think. New York: John Wiley & Sons. — archive.org  
-[5] Bostrom, N. (2014). Superintelligence: Paths, Dangers, Strategies. Oxford University Press. — global.oup.com  
-[6] Brundage, M., et al. (2018). “The Malicious Use of Artificial Intelligence.” arXiv:1802.07228. — arxiv.org/abs/1802.07228  
-[7] Bryson, J. J. (2010). “Robots Should Be Slaves.” In Close Engagements with Artificial Companions, 63–74. John Benjamins. — benjamins.com  
-[8] Burrell, J. (2016). “How the Machine ‘Thinks’: Understanding Opacity in Machine Learning Algorithms.” Big Data & Society, 3(1). — doi.org/10.1177/2053951715622512  
-[9] Čapek, K. (1920). R.U.R. (Rossum’s Universal Robots). Prague: Aventinum. — gutenberg.org/ebooks/59112  
-[10] Chiang, T. (2023). “ChatGPT Is a Blurry JPEG of the Web.” The New Yorker, 9 Feb. — newyorker.com  
-[11] Cognition AI (2024). “Introducing Devin, the First AI Software Engineer.” — cognition.ai/blog/introducing-devin  
-[12] Cowen, T. (2013). Average Is Over: Powering America Beyond the Age of the Great Stagnation. New York: Dutton. — penguinrandomhouse.com  
-[13] Crawford, K. (2021). Atlas of AI. New Haven: Yale University Press. — yalebooks.yale.edu  
-[14] Frey, C. B., & Osborne, M. A. (2017). “The Future of Employment.” Technological Forecasting & Social Change, 114, 254–280. — doi.org/10.1016/j.techfore.2016.08.019  
-[15] Goertzel, B. (2012). “Should Humanity Build a Global AI Nanny…?” Journal of Consciousness Studies, 19(1–2), 96–111. — ingentaconnect.com  
-[16] Good, I. J. (1965). “Speculations Concerning the First Ultraintelligent Machine.” Advances in Computers, 6, 31–88. — sciencedirect.com  
-[17] Gray, M. L., & Suri, S. (2019). Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass. Boston: HMH. — ghostwork.info  
-[18] Harari, Y. N. (2016). Homo Deus: A Brief History of Tomorrow. London: Harvill Secker. — ynharari.com  
-[19] Haraway, D. (1985). “A Cyborg Manifesto.” Socialist Review, 80, 65–108. — archive.org  
-[20] Hicks, M. T., Humphries, J., & Slater, J. (2024). “ChatGPT Is Bullshit.” Ethics and Information Technology, 26(2), 38. — doi.org/10.1007/s10676-024-09775-5  
-[21] Hubinger, E., et al. (2024). “Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training.” Anthropic. arXiv:2401.05566. — arxiv.org/abs/2401.05566  
-[22] Jimenez, C. E., et al. (2024). “SWE-bench: Can Language Models Resolve Real-World GitHub Issues?” ICLR. — arxiv.org/abs/2310.06770  
-[23] Kelly, K. (2010). What Technology Wants. New York: Viking. — kk.org  
-[24] Keynes, J. M. (1930). “Economic Possibilities for Our Grandchildren.” In Essays in Persuasion (1931). — gutenberg.net.au  
-[25] Kranzberg, M. (1986). “Technology and History: ‘Kranzberg’s Laws.’” Technology and Culture, 27(3), 544–560. — doi.org/10.2307/3105385  
-[26] Kurzweil, R. (2005). The Singularity Is Near. New York: Viking. — penguinrandomhouse.com  
-[27] Lakoff, G., & Johnson, M. (1980). Metaphors We Live By. University of Chicago Press. — press.uchicago.edu  
-[28] Licklider, J. C. R. (1960). “Man-Computer Symbiosis.” IRE Trans. Human Factors in Electronics, HFE-1, 4–11. — ieeexplore.ieee.org  
-[29] Mollick, E. (2024). Co-Intelligence: Living and Working with AI. New York: Portfolio. — penguinrandomhouse.com  
-[30] Nardi, B. A., & O’Day, V. L. (1999). Information Ecologies: Using Technology with Heart. MIT Press. — mitpress.mit.edu  
-[31] Ng, A. (2017). “Artificial Intelligence Is the New Electricity.” Keynote, Stanford GSB. — gsb.stanford.edu  
-[32] O’Gieblyn, M. (2021). God, Human, Animal, Machine. New York: Doubleday. — penguinrandomhouse.com  
-[33] Pasquale, F. (2015). The Black Box Society. Cambridge, MA: Harvard University Press. — hup.harvard.edu  
-[34] Rahimi, A. (2017). “Machine Learning Has Become Alchemy.” NeurIPS Test-of-Time Award lecture. — nips.cc  
-[35] Russell, S., et al. (2017). Slaughterbots [short film]. Future of Life Institute. — autonomousweapons.org  
-[36] Russell, S. (2019). Human Compatible: Artificial Intelligence and the Problem of Control. New York: Viking. — humancompatible.ai  
-[37] Shanahan, M. (2023). “Talking About Large Language Models.” arXiv:2212.03551 (Comm. ACM, 2024). — arxiv.org/abs/2212.03551  
-[38] Shelley, M. (1818). Frankenstein; or, The Modern Prometheus. London: Lackington et al. — gutenberg.org/ebooks/84  
-[39] Silverstone, R., & Haddon, L. (1996). “Design and the Domestication of ICTs.” In Communication by Design. Oxford UP. — oup.com  
-[40] Suleyman, M., with Bhaskar, M. (2023). The Coming Wave. New York: Crown. — the-coming-wave.com  
-[41] Tetlock, P. E., & Gardner, D. (2015). Superforecasting: The Art and Science of Prediction. New York: Crown. — penguinrandomhouse.com  
-[42] Turing, A. M. (1950). “Computing Machinery and Intelligence.” Mind, 59(236), 433–460. — doi.org/10.1093/mind/LIX.236.433  
-[43] Turkle, S. (2011). Alone Together. New York: Basic Books. — sherryturkle.com  
-[44] Vallor, S. (2024). The AI Mirror. Oxford University Press. — global.oup.com  
-[45] Vickers, B., & Allado-McDowell, K. (eds.) (2020). Atlas of Anomalous AI. London: Ignota Books. — ignota.org  
-[46] Vinge, V. (1993). “The Coming Technological Singularity.” VISION-21 Symposium, NASA. — edoras.sdsu.edu/~vinge  
-[47] Weizenbaum, J. (1976). Computer Power and Human Reason. San Francisco: W. H. Freeman. — archive.org  
-[48] Wiener, N. (1960). “Some Moral and Technical Consequences of Automation.” Science, 131(3410), 1355–1358. — doi.org/10.1126/science.131.3410.1355  
-[49] Wiener, N. (1964). God & Golem, Inc. Cambridge, MA: MIT Press. — mitpress.mit.edu  
-[50] Winner, L. (1980). “Do Artifacts Have Politics?” Daedalus, 109(1), 121–136. — jstor.org  
-[51] Wozniak, S. (2015). Remarks at the Freescale Technology Forum (reported in Time, June 2015). — time.com  
-[52] Yampolskiy, R. V. (2020). “On Controllability of Artificial Intelligence.” arXiv:2008.04071. — arxiv.org/abs/2008.04071  
-[53] Zuboff, S. (2019). The Age of Surveillance Capitalism. New York: PublicAffairs. — publicaffairsbooks.com
+*References follow APA author–date style; each entry links to an official source (DOI, repository, or publisher).*
+
+[1] Amodei, D. (2024). “Machines of Loving Grace: How AI Could Transform the World for the Better.” Essay, darioamodei.com. — [darioamodei.com/machines-of-loving-grace](https://darioamodei.com/machines-of-loving-grace)  
+[2] Aschenbrenner, L. (2024). Situational Awareness: The Decade Ahead. situational-awareness.ai. — [situational-awareness.ai](https://situational-awareness.ai)  
+[3] Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). “On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?” Proc. ACM FAccT ’21, 610–623. — [doi.org/10.1145/3442188.3445922](https://doi.org/10.1145/3442188.3445922)  
+[4] Berkeley, E. C. (1949). Giant Brains, or Machines That Think. New York: John Wiley & Sons. — [archive.org](https://archive.org)  
+[5] Bostrom, N. (2014). Superintelligence: Paths, Dangers, Strategies. Oxford University Press. — [global.oup.com](https://global.oup.com)  
+[6] Brundage, M., et al. (2018). “The Malicious Use of Artificial Intelligence.” arXiv:1802.07228. — [arxiv.org/abs/1802.07228](https://arxiv.org/abs/1802.07228)  
+[7] Bryson, J. J. (2010). “Robots Should Be Slaves.” In Close Engagements with Artificial Companions, 63–74. John Benjamins. — [benjamins.com](https://benjamins.com)  
+[8] Burrell, J. (2016). “How the Machine ‘Thinks’: Understanding Opacity in Machine Learning Algorithms.” Big Data & Society, 3(1). — [doi.org/10.1177/2053951715622512](https://doi.org/10.1177/2053951715622512)  
+[9] Čapek, K. (1920). R.U.R. (Rossum’s Universal Robots). Prague: Aventinum. — [gutenberg.org/ebooks/59112](https://gutenberg.org/ebooks/59112)  
+[10] Chiang, T. (2023). “ChatGPT Is a Blurry JPEG of the Web.” The New Yorker, 9 Feb. — [newyorker.com](https://newyorker.com)  
+[11] Cognition AI (2024). “Introducing Devin, the First AI Software Engineer.” — [cognition.ai/blog/introducing-devin](https://cognition.ai/blog/introducing-devin)  
+[12] Cowen, T. (2013). Average Is Over: Powering America Beyond the Age of the Great Stagnation. New York: Dutton. — [penguinrandomhouse.com](https://penguinrandomhouse.com)  
+[13] Crawford, K. (2021). Atlas of AI. New Haven: Yale University Press. — [yalebooks.yale.edu](https://yalebooks.yale.edu)  
+[14] Frey, C. B., & Osborne, M. A. (2017). “The Future of Employment.” Technological Forecasting & Social Change, 114, 254–280. — [doi.org/10.1016/j.techfore.2016.08.019](https://doi.org/10.1016/j.techfore.2016.08.019)  
+[15] Goertzel, B. (2012). “Should Humanity Build a Global AI Nanny…?” Journal of Consciousness Studies, 19(1–2), 96–111. — [ingentaconnect.com](https://ingentaconnect.com)  
+[16] Good, I. J. (1965). “Speculations Concerning the First Ultraintelligent Machine.” Advances in Computers, 6, 31–88. — [sciencedirect.com](https://sciencedirect.com)  
+[17] Gray, M. L., & Suri, S. (2019). Ghost Work: How to Stop Silicon Valley from Building a New Global Underclass. Boston: HMH. — [ghostwork.info](https://ghostwork.info)  
+[18] Harari, Y. N. (2016). Homo Deus: A Brief History of Tomorrow. London: Harvill Secker. — [ynharari.com](https://ynharari.com)  
+[19] Haraway, D. (1985). “A Cyborg Manifesto.” Socialist Review, 80, 65–108. — [archive.org](https://archive.org)  
+[20] Hicks, M. T., Humphries, J., & Slater, J. (2024). “ChatGPT Is Bullshit.” Ethics and Information Technology, 26(2), 38. — [doi.org/10.1007/s10676-024-09775-5](https://doi.org/10.1007/s10676-024-09775-5)  
+[21] Hubinger, E., et al. (2024). “Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training.” Anthropic. arXiv:2401.05566. — [arxiv.org/abs/2401.05566](https://arxiv.org/abs/2401.05566)  
+[22] Jimenez, C. E., et al. (2024). “SWE-bench: Can Language Models Resolve Real-World GitHub Issues?” ICLR. — [arxiv.org/abs/2310.06770](https://arxiv.org/abs/2310.06770)  
+[23] Kelly, K. (2010). What Technology Wants. New York: Viking. — [kk.org](https://kk.org)  
+[24] Keynes, J. M. (1930). “Economic Possibilities for Our Grandchildren.” In Essays in Persuasion (1931). — [gutenberg.net.au](https://gutenberg.net.au)  
+[25] Kranzberg, M. (1986). “Technology and History: ‘Kranzberg’s Laws.’” Technology and Culture, 27(3), 544–560. — [doi.org/10.2307/3105385](https://doi.org/10.2307/3105385)  
+[26] Kurzweil, R. (2005). The Singularity Is Near. New York: Viking. — [penguinrandomhouse.com](https://penguinrandomhouse.com)  
+[27] Lakoff, G., & Johnson, M. (1980). Metaphors We Live By. University of Chicago Press. — [press.uchicago.edu](https://press.uchicago.edu)  
+[28] Licklider, J. C. R. (1960). “Man-Computer Symbiosis.” IRE Trans. Human Factors in Electronics, HFE-1, 4–11. — [ieeexplore.ieee.org](https://ieeexplore.ieee.org)  
+[29] Mollick, E. (2024). Co-Intelligence: Living and Working with AI. New York: Portfolio. — [penguinrandomhouse.com](https://penguinrandomhouse.com)  
+[30] Nardi, B. A., & O’Day, V. L. (1999). Information Ecologies: Using Technology with Heart. MIT Press. — [mitpress.mit.edu](https://mitpress.mit.edu)  
+[31] Ng, A. (2017). “Artificial Intelligence Is the New Electricity.” Keynote, Stanford GSB. — [gsb.stanford.edu](https://gsb.stanford.edu)  
+[32] O’Gieblyn, M. (2021). God, Human, Animal, Machine. New York: Doubleday. — [penguinrandomhouse.com](https://penguinrandomhouse.com)  
+[33] Pasquale, F. (2015). The Black Box Society. Cambridge, MA: Harvard University Press. — [hup.harvard.edu](https://hup.harvard.edu)  
+[34] Rahimi, A. (2017). “Machine Learning Has Become Alchemy.” NeurIPS Test-of-Time Award lecture. — [nips.cc](https://nips.cc)  
+[35] Russell, S., et al. (2017). Slaughterbots [short film]. Future of Life Institute. — [autonomousweapons.org](https://autonomousweapons.org)  
+[36] Russell, S. (2019). Human Compatible: Artificial Intelligence and the Problem of Control. New York: Viking. — [humancompatible.ai](https://humancompatible.ai)  
+[37] Shanahan, M. (2023). “Talking About Large Language Models.” arXiv:2212.03551 (Comm. ACM, 2024). — [arxiv.org/abs/2212.03551](https://arxiv.org/abs/2212.03551)  
+[38] Shelley, M. (1818). Frankenstein; or, The Modern Prometheus. London: Lackington et al. — [gutenberg.org/ebooks/84](https://gutenberg.org/ebooks/84)  
+[39] Silverstone, R., & Haddon, L. (1996). “Design and the Domestication of ICTs.” In Communication by Design. Oxford UP. — [oup.com](https://oup.com)  
+[40] Suleyman, M., with Bhaskar, M. (2023). The Coming Wave. New York: Crown. — [the-coming-wave.com](https://the-coming-wave.com)  
+[41] Tetlock, P. E., & Gardner, D. (2015). Superforecasting: The Art and Science of Prediction. New York: Crown. — [penguinrandomhouse.com](https://penguinrandomhouse.com)  
+[42] Turing, A. M. (1950). “Computing Machinery and Intelligence.” Mind, 59(236), 433–460. — [doi.org/10.1093/mind/LIX.236.433](https://doi.org/10.1093/mind/LIX.236.433)  
+[43] Turkle, S. (2011). Alone Together. New York: Basic Books. — [sherryturkle.com](https://sherryturkle.com)  
+[44] Vallor, S. (2024). The AI Mirror. Oxford University Press. — [global.oup.com](https://global.oup.com)  
+[45] Vickers, B., & Allado-McDowell, K. (eds.) (2020). Atlas of Anomalous AI. London: Ignota Books. — [ignota.org](https://ignota.org)  
+[46] Vinge, V. (1993). “The Coming Technological Singularity.” VISION-21 Symposium, NASA. — [edoras.sdsu.edu/~vinge](https://edoras.sdsu.edu/~vinge)  
+[47] Weizenbaum, J. (1976). Computer Power and Human Reason. San Francisco: W. H. Freeman. — [archive.org](https://archive.org)  
+[48] Wiener, N. (1960). “Some Moral and Technical Consequences of Automation.” Science, 131(3410), 1355–1358. — [doi.org/10.1126/science.131.3410.1355](https://doi.org/10.1126/science.131.3410.1355)  
+[49] Wiener, N. (1964). God & Golem, Inc. Cambridge, MA: MIT Press. — [mitpress.mit.edu](https://mitpress.mit.edu)  
+[50] Winner, L. (1980). “Do Artifacts Have Politics?” Daedalus, 109(1), 121–136. — [jstor.org](https://jstor.org)  
+[51] Wozniak, S. (2015). Remarks at the Freescale Technology Forum (reported in Time, June 2015). — [time.com](https://time.com)  
+[52] Yampolskiy, R. V. (2020). “On Controllability of Artificial Intelligence.” arXiv:2008.04071. — [arxiv.org/abs/2008.04071](https://arxiv.org/abs/2008.04071)  
+[53] Zuboff, S. (2019). The Age of Surveillance Capitalism. New York: PublicAffairs. — [publicaffairsbooks.com](https://publicaffairsbooks.com)
 
 ## Image credits
 
