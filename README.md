@@ -1,6 +1,6 @@
 # Metaphors of AI
 
-A map of **44 recurring metaphors of AI**, plotted by **potency** (weak → omnipotent)
+A map of **43 recurring metaphors of AI**, plotted by **potency** (weak → omnipotent)
 and **threat** (non‑threatening → threatening), with a sourced bibliography of **53
 references** and a companion essay.
 
@@ -13,7 +13,7 @@ By **Charlie Stein & Alexander Doudkin**, 2026.
 
 |                       | Weak (low potency)            | Omnipotent (high potency)        |
 | --------------------- | ----------------------------- | -------------------------------- |
-| **Threatening**       | Inept tool                    | Menacing overlord                |
+| **Threatening**       | Blind force                   | Menacing overlord                |
 | **Non‑threatening**   | Humble servant                | Omnipotent protector             |
 
 Each metaphor carries `[n]` citation brackets keyed to the bibliography, which is

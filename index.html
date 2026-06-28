@@ -65,7 +65,7 @@ const NS="http://www.w3.org/2000/svg";
 const BW=2560, BH=2720;
 const MX0=380, MX1=2180, MY0=300, MY1=2040;
 const cx=(MX0+MX1)/2, cy=(MY0+MY1)/2;
-const HERO={ "wild-animal":116,robots:106,parrot:98,brain:108,overlord:118,hurricane:108,"black-box":92,genie:84,midas:98,pandora:94,"domestic-animal":108,god:94,"guardian-angel":94,singularity:104,"job-killer":108,"ai-lover":104,"code-monkey":96,golem:104,frankenstein:102,"ghost-work":104,centaur:106,alchemy:98,electricity:96,cyborg:98,intern:96,bullshitter:110,eliza:92 };
+const HERO={ "wild-animal":116,robots:106,parrot:98,brain:108,overlord:118,hurricane:108,"black-box":92,genie:84,midas:98,pandora:94,"domestic-animal":108,god:94,"guardian-angel":94,singularity:104,"job-killer":108,"ai-lover":104,"code-monkey":96,golem:104,frankenstein:102,"ghost-work":104,centaur:106,alchemy:98,electricity:96,cyborg:98,intern:96,eliza:92 };
 const svg=document.createElementNS(NS,"svg");
 svg.setAttribute("width",BW); svg.setAttribute("height",BH);
 svg.style.cssText="position:absolute;top:0;left:0;pointer-events:none";
@@ -123,7 +123,7 @@ pts.forEach(o=>{const im=new Image();o.img=im;
   im.src=o.p.image_cutout;});
 function layout(){
   const OBST=[
-    [MX0+8,MY0+2,MX0+400,MY0+150],    // top-left  Inept tool
+    [MX0+8,MY0+2,MX0+400,MY0+150],    // top-left  Blind force
     [MX1-400,MY0+2,MX1-8,MY0+150],    // top-right Menacing overlord
     [MX0+8,MY1-150,MX0+400,MY1-2],    // bot-left  Humble servant
     [MX1-400,MY1-150,MX1-8,MY1-2],    // bot-right Omnipotent protector

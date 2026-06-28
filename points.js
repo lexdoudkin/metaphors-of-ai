@@ -65,8 +65,8 @@ window.MATRIX = {
         }
       },
       "blind_force": {
-        "label": "Inept tool",
-        "note": "weak · potentially dangerous",
+        "label": "Blind force",
+        "note": "no agenda · can still harm",
         "threat": "high",
         "agency": "low",
         "labelPos": {
@@ -495,16 +495,43 @@ window.MATRIX = {
   },
   "points": [
     {
+      "id": "manhattan-bomb",
+      "name": "The bomb",
+      "quadrant": "overlord",
+      "threat": "high",
+      "agency": "high",
+      "position": {
+        "x": 1024,
+        "y": 1053,
+        "nx": 0.8,
+        "ny": 0.93,
+        "rotation": -3
+      },
+      "description": "AI as the new strategic weapon — a national-security race run on the logic of the Manhattan Project.",
+      "image_file": "images/photo/manhattan-bomb.jpg",
+      "image_final": null,
+      "suggested_image": "The bomb, transparent cut-out",
+      "references": [
+        2
+      ],
+      "image_cutout": "images/cutout/manhattan-bomb.png",
+      "image_credit": "U.S. Department of Defense · Public domain · Wikimedia Commons",
+      "image_license": "Public domain",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Fat_Man_(replica_of_nuclear_bomb).jpg",
+      "number": 1,
+      "side": "left"
+    },
+    {
       "id": "hurricane",
       "name": "Hurricane, tsunami",
       "quadrant": "blind_force",
       "threat": "high",
       "agency": "low",
       "position": {
-        "x": 245,
-        "y": 246,
-        "nx": 0.171,
-        "ny": 0.924,
+        "x": 128,
+        "y": 1019,
+        "nx": 0.1,
+        "ny": 0.9,
         "rotation": -4
       },
       "description": "An overwhelming, impersonal force of nature: no intent, but devastating in its path.",
@@ -514,40 +541,12 @@ window.MATRIX = {
       "references": [
         40
       ],
-      "number": 1,
+      "number": 2,
       "side": "left",
       "image_cutout": "images/cutout/hurricane.png",
       "image_credit": "Alexander Gerst · Public domain · Wikimedia Commons",
       "image_license": "Public domain",
       "image_source_url": "https://commons.wikimedia.org/wiki/File:Staring_Down_Hurricane_Florence.jpg"
-    },
-    {
-      "id": "job-killer",
-      "name": "The job-killer",
-      "quadrant": "blind_force",
-      "threat": "high",
-      "agency": "low",
-      "position": {
-        "x": 535,
-        "y": 272,
-        "nx": 0.44,
-        "ny": 0.9,
-        "rotation": -3
-      },
-      "description": "AI as the engine of technological unemployment — the tireless automaton that quietly does the work, and the wages, out of existence.",
-      "image_file": "images/photo/job-killer.jpg",
-      "image_final": null,
-      "suggested_image": "industrial robot arm replacing a worker, transparent cut-out",
-      "references": [
-        24,
-        14
-      ],
-      "image_cutout": "images/cutout/job-killer.png",
-      "image_credit": "Oleg Yunakov · CC BY-SA 4.0 · Wikimedia Commons",
-      "image_license": "CC BY-SA 4.0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:KUKA_industrial_robotic_arm_performing_%22The_Beach%22_by_Roy_Nachum_-_06.jpg",
-      "number": 2,
-      "side": "left"
     },
     {
       "id": "slaughterbots",
@@ -556,10 +555,10 @@ window.MATRIX = {
       "threat": "high",
       "agency": "low",
       "position": {
-        "x": 535,
-        "y": 325,
-        "nx": 0.44,
-        "ny": 0.85,
+        "x": 435,
+        "y": 985,
+        "nx": 0.34,
+        "ny": 0.87,
         "rotation": 3
       },
       "description": "Cheap, autonomous lethal weapons that select and kill targets with no human in the loop.",
@@ -583,10 +582,10 @@ window.MATRIX = {
       "threat": "high",
       "agency": "low",
       "position": {
-        "x": 395,
-        "y": 372,
-        "nx": 0.31,
-        "ny": 0.806,
+        "x": 282,
+        "y": 951,
+        "nx": 0.22,
+        "ny": 0.84,
         "rotation": -3
       },
       "description": "A technology that, once opened, releases consequences that cannot be undone or contained.",
@@ -604,521 +603,87 @@ window.MATRIX = {
       "image_source_url": "https://commons.wikimedia.org/wiki/File:Treasure_Chest_(3981686321).jpg"
     },
     {
-      "id": "ecosystem",
-      "name": "Ecosystem",
-      "quadrant": "blind_force",
+      "id": "overlord",
+      "name": "Menacing overlord",
+      "quadrant": "overlord",
       "threat": "high",
-      "agency": "low",
+      "agency": "high",
       "position": {
-        "x": 220,
-        "y": 482,
-        "nx": 0.148,
-        "ny": 0.702,
-        "rotation": 2
+        "x": 1190,
+        "y": 951,
+        "nx": 0.93,
+        "ny": 0.84,
+        "rotation": 3
       },
-      "description": "AI as a complex, interdependent system that evolves and self-organises beyond any single designer's control.",
-      "image_file": "images/photo/ecosystem.jpg",
-      "image_final": null,
-      "suggested_image": "lush forest or coral reef ecosystem, transparent cut-out",
+      "description": "A hostile superintelligence that deliberately dominates and rules over humanity.",
+      "image_file": "images/photo/overlord.jpg",
+      "image_final": "images/shoggoth.png",
+      "suggested_image": "dark menacing robot overlord / Sauron-like silhouette, transparent cut-out",
       "references": [
-        30
+        5,
+        16
       ],
       "number": 5,
       "side": "left",
-      "image_cutout": "images/cutout/ecosystem.png",
-      "image_credit": "Nhobgood Nick Hobgood · CC BY-SA 3.0 · Wikimedia Commons",
-      "image_license": "CC BY-SA 3.0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:Soft_coral_peach_komodo.jpg"
+      "image_cutout": "images/cutout/overlord.png",
+      "image_credit": "“Shoggoth with smiley face”, @TetraspaceWest (2022) · via Know Your Meme",
+      "image_license": "meme (rights unclear)",
+      "image_source_url": "https://knowyourmeme.com/memes/shoggoth-with-smiley-face-artificial-intelligence"
     },
     {
-      "id": "wild-animal",
-      "name": "Wild animal",
+      "id": "job-killer",
+      "name": "The job-killer",
       "quadrant": "blind_force",
       "threat": "high",
       "agency": "low",
       "position": {
-        "x": 524,
-        "y": 514,
-        "nx": 0.43,
-        "ny": 0.672,
+        "x": 602,
+        "y": 940,
+        "nx": 0.47,
+        "ny": 0.83,
         "rotation": -3
       },
-      "description": "A powerful, unpredictable, untamed force that can be dangerous if not contained.",
-      "image_file": "images/photo/wild-animal.jpg",
+      "description": "AI as the engine of technological unemployment — the tireless automaton that quietly does the work, and the wages, out of existence.",
+      "image_file": "images/photo/job-killer.jpg",
       "image_final": null,
-      "suggested_image": "snarling lion or tiger, transparent cut-out",
+      "suggested_image": "industrial robot arm replacing a worker, transparent cut-out",
       "references": [
-        52
+        24,
+        14
       ],
+      "image_cutout": "images/cutout/job-killer.png",
+      "image_credit": "Oleg Yunakov · CC BY-SA 4.0 · Wikimedia Commons",
+      "image_license": "CC BY-SA 4.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:KUKA_industrial_robotic_arm_performing_%22The_Beach%22_by_Roy_Nachum_-_06.jpg",
       "number": 6,
-      "side": "left",
-      "image_cutout": "images/cutout/wild-animal.png",
-      "image_credit": "Bernard DUPONT from FRANCE · CC BY-SA 2.0 · Wikimedia Commons",
-      "image_license": "CC BY-SA 2.0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:Lion_(Panthera_leo)_marking_its_territory_..._(51847917653).jpg"
+      "side": "left"
     },
     {
-      "id": "microbiome",
-      "name": "A microbiome / organism",
-      "quadrant": "blind_force",
+      "id": "robots",
+      "name": "Robots ruling society",
+      "quadrant": "overlord",
       "threat": "high",
-      "agency": "low",
+      "agency": "high",
       "position": {
-        "x": 152,
-        "y": 528,
-        "nx": 0.085,
-        "ny": 0.659,
-        "rotation": -3
+        "x": 947,
+        "y": 940,
+        "nx": 0.74,
+        "ny": 0.83,
+        "rotation": 2
       },
-      "description": "AI as a living, growing, distributed organism enmeshed with human society.",
-      "image_file": "images/photo/microbiome.jpg",
+      "description": "Embodied machines taking control of social and political structures.",
+      "image_file": "images/photo/robots.jpg",
       "image_final": null,
-      "suggested_image": "microscope view of bacteria / cells, transparent cut-out",
+      "suggested_image": "army of Terminator-style robots marching, transparent cut-out",
       "references": [
-        23
+        9
       ],
       "number": 7,
       "side": "left",
-      "image_cutout": "images/cutout/microbiome.png",
-      "image_credit": "Photo by Eric Erbe, digital colorization by C… · Public domain · Wikimedia Commons",
-      "image_license": "Public domain",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:E_coli_at_10000x,_original.jpg"
-    },
-    {
-      "id": "sword",
-      "name": "Double-edged sword",
-      "quadrant": "blind_force",
-      "threat": "high",
-      "agency": "low",
-      "position": {
-        "x": 293,
-        "y": 619,
-        "nx": 0.216,
-        "ny": 0.574,
-        "rotation": 3
-      },
-      "description": "A tool equally capable of great benefit and great harm, depending on how it is used.",
-      "image_file": "images/photo/sword.jpg",
-      "image_final": null,
-      "suggested_image": "double-edged sword / dagger, transparent cut-out",
-      "references": [
-        6
-      ],
-      "number": 8,
-      "side": "left",
-      "image_cutout": "images/cutout/sword.png",
-      "image_credit": "Albion Europe ApS · CC BY 2.0 · Wikimedia Commons",
-      "image_license": "CC BY 2.0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:The_Tritonia_05.jpg"
-    },
-    {
-      "id": "bullshitter",
-      "name": "The bullshitter",
-      "quadrant": "blind_force",
-      "threat": "high",
-      "agency": "low",
-      "position": {
-        "x": 384,
-        "y": 634,
-        "nx": 0.3,
-        "ny": 0.56,
-        "rotation": 3
-      },
-      "description": "Fluent text with no regard for truth — indifferent to the facts, not merely mistaken.",
-      "image_file": "images/photo/bullshitter.jpg",
-      "image_final": null,
-      "suggested_image": "The bullshitter, transparent cut-out",
-      "references": [
-        20
-      ],
-      "image_cutout": "images/cutout/bullshitter.png",
-      "image_credit": "Gordon Leggett · CC BY-SA 4.0 · Wikimedia Commons",
-      "image_license": "CC BY-SA 4.0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:2011-05-30_008_Young_Highland_cow,_Denmark.jpg",
-      "number": 9,
-      "side": "left"
-    },
-    {
-      "id": "mirror",
-      "name": "Mirror",
-      "quadrant": "humble_tool",
-      "threat": "low",
-      "agency": "low",
-      "position": {
-        "x": 133,
-        "y": 698,
-        "nx": 0.068,
-        "ny": 0.5,
-        "rotation": 2
-      },
-      "description": "AI as a reflection of humanity; it shows our own data, biases and culture back to us.",
-      "image_file": "images/photo/mirror.jpg",
-      "image_final": null,
-      "suggested_image": "ornate hand mirror reflecting, transparent cut-out",
-      "references": [
-        13,
-        44
-      ],
-      "number": 10,
-      "side": "left",
-      "image_cutout": "images/cutout/mirror.png",
-      "image_credit": "Chris Gunn · Public domain · Wikimedia Commons",
-      "image_license": "Public domain",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:A_Clear_Reflection_on_Webb_Telescope%27s_Secondary_Mirror_(8169557139).jpg"
-    },
-    {
-      "id": "black-box",
-      "name": "Black box",
-      "quadrant": "humble_tool",
-      "threat": "low",
-      "agency": "low",
-      "position": {
-        "x": 348,
-        "y": 719,
-        "nx": 0.267,
-        "ny": 0.48,
-        "rotation": -2
-      },
-      "description": "An opaque system whose inner workings we cannot inspect, only its inputs and outputs.",
-      "image_file": "images/photo/black-box.jpg",
-      "image_final": "images/hal.png",
-      "suggested_image": "matte black box / flight-recorder, transparent cut-out",
-      "references": [
-        8,
-        33
-      ],
-      "number": 11,
-      "side": "left",
-      "image_cutout": "images/cutout/black-box.png",
-      "image_credit": "Tom Cowap · CC BY-SA 4.0 · Wikimedia Commons",
-      "image_license": "CC BY-SA 4.0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:Hal_9000_Panel.svg"
-    },
-    {
-      "id": "child",
-      "name": "Child",
-      "quadrant": "humble_tool",
-      "threat": "low",
-      "agency": "low",
-      "position": {
-        "x": 568,
-        "y": 855,
-        "nx": 0.47,
-        "ny": 0.352,
-        "rotation": 2
-      },
-      "description": "AI as an immature being we raise and must teach values to; capable, but in need of guidance. Sits near the centre of the agency axis.",
-      "image_file": "images/photo/child.jpg",
-      "image_final": null,
-      "suggested_image": "toddler reaching up, transparent cut-out",
-      "references": [
-        42
-      ],
-      "number": 12,
-      "side": "left",
-      "image_cutout": "images/cutout/child.png",
-      "image_credit": "Kyle Peyton · CC BY 2.0 · Wikimedia Commons",
-      "image_license": "CC BY 2.0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:Toddler_wearing_nappy.jpg"
-    },
-    {
-      "id": "intern",
-      "name": "The intern",
-      "quadrant": "protector",
-      "threat": "low",
-      "agency": "low",
-      "position": {
-        "x": 600,
-        "y": 868,
-        "nx": 0.5,
-        "ny": 0.34,
-        "rotation": -3
-      },
-      "description": "A fast, eager, capable junior that bends the truth — brilliant, never to be trusted unchecked.",
-      "image_file": "images/photo/intern.jpg",
-      "image_final": null,
-      "suggested_image": "The intern, transparent cut-out",
-      "references": [
-        29
-      ],
-      "image_cutout": "images/cutout/intern.png",
-      "image_credit": "Shixart1985 · CC BY 2.0 · Wikimedia Commons",
-      "image_license": "CC BY 2.0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:Middle-aged_businesswoman_typing_on_laptop_at_home_office.jpg",
-      "number": 13,
-      "side": "left"
-    },
-    {
-      "id": "alchemy",
-      "name": "Alchemy",
-      "quadrant": "humble_tool",
-      "threat": "low",
-      "agency": "low",
-      "position": {
-        "x": 449,
-        "y": 889,
-        "nx": 0.36,
-        "ny": 0.32,
-        "rotation": -3
-      },
-      "description": "Powerful results we cannot explain; a practice that works without a theory of why.",
-      "image_file": "images/photo/alchemy.jpg",
-      "image_final": null,
-      "suggested_image": "Alchemy, transparent cut-out",
-      "references": [
-        34
-      ],
-      "image_cutout": "images/cutout/alchemy.png",
-      "image_credit": "Joseph Wright of Derby · Public domain · Wikimedia Commons",
-      "image_license": "Public domain",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:Joseph_Wright_of_Derby_The_Alchemist.jpg",
-      "number": 14,
-      "side": "left"
-    },
-    {
-      "id": "blurry-jpeg",
-      "name": "A blurry JPEG of the web",
-      "quadrant": "humble_tool",
-      "threat": "low",
-      "agency": "low",
-      "position": {
-        "x": 406,
-        "y": 911,
-        "nx": 0.32,
-        "ny": 0.3,
-        "rotation": 2
-      },
-      "description": "A lossy compression of everything written online; fluent approximation that blurs the facts it restates.",
-      "image_file": "images/photo/blurry-jpeg.jpg",
-      "image_final": null,
-      "suggested_image": "A blurry JPEG of the web, transparent cut-out",
-      "references": [
-        10
-      ],
-      "image_cutout": "images/cutout/blurry-jpeg.png",
-      "image_credit": "NASA / Apollo 17 (pixelated derivative) · Public domain · Wikimedia Commons",
-      "image_license": "Public domain",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
-      "number": 15,
-      "side": "left"
-    },
-    {
-      "id": "domestic-animal",
-      "name": "Domesticated animal",
-      "quadrant": "humble_tool",
-      "threat": "low",
-      "agency": "low",
-      "position": {
-        "x": 437,
-        "y": 942,
-        "nx": 0.349,
-        "ny": 0.27,
-        "rotation": 3
-      },
-      "description": "A tamed, useful, mostly predictable companion that still keeps its own drives.",
-      "image_file": "images/photo/domestic-animal.jpg",
-      "image_final": null,
-      "suggested_image": "domestic dog sitting, transparent cut-out",
-      "references": [
-        39
-      ],
-      "number": 16,
-      "side": "left",
-      "image_cutout": "images/cutout/domestic-animal.png",
-      "image_credit": "Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons",
-      "image_license": "CC BY-SA 4.0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Hausd%C3%BClmen,_Golden_Retriever_--_2022_--_5945.jpg"
-    },
-    {
-      "id": "eliza",
-      "name": "The therapist (ELIZA)",
-      "quadrant": "humble_tool",
-      "threat": "low",
-      "agency": "low",
-      "position": {
-        "x": 535,
-        "y": 953,
-        "nx": 0.44,
-        "ny": 0.26,
-        "rotation": -2
-      },
-      "description": "A mirror that listens; the confidant we over-trust, projecting understanding onto a simple program.",
-      "image_file": "images/photo/eliza.jpg",
-      "image_final": null,
-      "suggested_image": "The therapist (ELIZA), transparent cut-out",
-      "references": [
-        47
-      ],
-      "image_cutout": "images/cutout/eliza.png",
-      "image_credit": "Secretlondon · CC BY-SA 4.0 · Wikimedia Commons",
-      "image_license": "CC BY-SA 4.0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:Freud%E2%80%99s_couch_in_Freud_museum.jpg",
-      "number": 17,
-      "side": "left"
-    },
-    {
-      "id": "hammer",
-      "name": "Tool (hammer)",
-      "quadrant": "humble_tool",
-      "threat": "low",
-      "agency": "low",
-      "position": {
-        "x": 123,
-        "y": 962,
-        "nx": 0.058,
-        "ny": 0.252,
-        "rotation": -4
-      },
-      "description": "AI as a neutral instrument; its value and danger come entirely from how a human wields it.",
-      "image_file": "images/photo/hammer.jpg",
-      "image_final": null,
-      "suggested_image": "claw hammer, transparent cut-out",
-      "references": [
-        25,
-        50
-      ],
-      "number": 18,
-      "side": "left",
-      "image_cutout": "images/cutout/hammer.png",
-      "image_credit": "HutheMeow · CC BY-SA 4.0 · Wikimedia Commons",
-      "image_license": "CC BY-SA 4.0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:Claw_hammer_2.jpg"
-    },
-    {
-      "id": "ghost-work",
-      "name": "The Mechanical Turk",
-      "quadrant": "humble_tool",
-      "threat": "low",
-      "agency": "low",
-      "position": {
-        "x": 341,
-        "y": 974,
-        "nx": 0.26,
-        "ny": 0.24,
-        "rotation": 2
-      },
-      "description": "Seemingly autonomous intelligence quietly powered by an invisible workforce of human labour.",
-      "image_file": "images/photo/ghost-work.png",
-      "image_final": null,
-      "suggested_image": "The Mechanical Turk, transparent cut-out",
-      "references": [
-        17
-      ],
-      "image_cutout": "images/cutout/ghost-work.png",
-      "image_credit": "Willis, Robert, 1800-1875 · Public domain · Wikimedia Commons",
-      "image_license": "Public domain",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:Chess_Automaton_Willis_1821_09.png",
-      "number": 19,
-      "side": "left"
-    },
-    {
-      "id": "butler",
-      "name": "Butler or slave",
-      "quadrant": "humble_tool",
-      "threat": "low",
-      "agency": "low",
-      "position": {
-        "x": 349,
-        "y": 994,
-        "nx": 0.268,
-        "ny": 0.222,
-        "rotation": 4
-      },
-      "description": "An obedient servant that performs labour on command; raises questions of autonomy and exploitation.",
-      "image_file": "images/photo/butler.jpg",
-      "image_final": null,
-      "suggested_image": "tuxedo butler holding a tray, transparent cut-out",
-      "references": [
-        7,
-        9
-      ],
-      "number": 20,
-      "side": "left",
-      "image_cutout": "images/cutout/butler.png",
-      "image_credit": "Shixart1985 · CC BY 2.0 · Wikimedia Commons",
-      "image_license": "CC BY 2.0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:Serving_coffee_in_a_cafe_during_the_morning_hours_with_a_waiter_carrying_a_tray_of_drinks_for_customers.jpg"
-    },
-    {
-      "id": "parrot",
-      "name": "Parrot",
-      "quadrant": "humble_tool",
-      "threat": "low",
-      "agency": "low",
-      "position": {
-        "x": 125,
-        "y": 1133,
-        "nx": 0.06,
-        "ny": 0.091,
-        "rotation": 3
-      },
-      "description": "The “stochastic parrot”: AI that mimics and recombines language without genuine understanding.",
-      "image_file": "images/photo/parrot.jpg",
-      "image_final": "images/parrot.jpg",
-      "suggested_image": "scarlet macaw parrot, transparent cut-out",
-      "references": [
-        3
-      ],
-      "number": 21,
-      "side": "left",
-      "image_cutout": "images/cutout/parrot.png",
-      "image_credit": "Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons",
-      "image_license": "CC BY-SA 4.0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:Scarlet_macaw_(Ara_macao_cyanopterus)_Copan.jpg"
-    },
-    {
-      "id": "manhattan-bomb",
-      "name": "The bomb",
-      "quadrant": "overlord",
-      "threat": "high",
-      "agency": "high",
-      "position": {
-        "x": 946,
-        "y": 250,
-        "nx": 0.82,
-        "ny": 0.92,
-        "rotation": -3
-      },
-      "description": "AI as the new strategic weapon — a national-security race run on the logic of the Manhattan Project.",
-      "image_file": "images/photo/manhattan-bomb.jpg",
-      "image_final": null,
-      "suggested_image": "The bomb, transparent cut-out",
-      "references": [
-        2
-      ],
-      "image_cutout": "images/cutout/manhattan-bomb.png",
-      "image_credit": "U.S. Department of Defense · Public domain · Wikimedia Commons",
-      "image_license": "Public domain",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:Fat_Man_(replica_of_nuclear_bomb).jpg",
-      "number": 22,
-      "side": "right"
-    },
-    {
-      "id": "puppet-master",
-      "name": "Puppet master",
-      "quadrant": "overlord",
-      "threat": "high",
-      "agency": "high",
-      "position": {
-        "x": 984,
-        "y": 323,
-        "nx": 0.856,
-        "ny": 0.852,
-        "rotation": -4
-      },
-      "description": "AI covertly pulling the strings, manipulating human behaviour and society from behind the scenes.",
-      "image_file": "images/photo/puppet-master.jpg",
-      "image_final": null,
-      "suggested_image": "marionette control cross with strings / hand working a puppet, transparent cut-out",
-      "references": [
-        53
-      ],
-      "number": 23,
-      "side": "right",
-      "image_cutout": "images/cutout/puppet-master.png",
-      "image_credit": "Sydney Delle Donne · CC BY-SA 4.0 · Wikimedia Commons",
-      "image_license": "CC BY-SA 4.0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:Scene_from_%22A_Tale_of_Two_Mice%22_is_an_app_that_showcases_the_unique_marionette_puppetry_of_Sydney_Delle_Donne_and_her_%22Country_Mouse_Puppets%22_marionette_studios.jpg"
+      "image_cutout": "images/cutout/robots.png",
+      "image_credit": "Syced · CC0 · Wikimedia Commons",
+      "image_license": "CC0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Humanoid_robot_at_Science_Square_Tsukuba.jpg"
     },
     {
       "id": "frankenstein",
@@ -1127,9 +692,9 @@ window.MATRIX = {
       "threat": "high",
       "agency": "high",
       "position": {
-        "x": 773,
-        "y": 357,
-        "nx": 0.66,
+        "x": 794,
+        "y": 928,
+        "nx": 0.62,
         "ny": 0.82,
         "rotation": 3
       },
@@ -1144,63 +709,35 @@ window.MATRIX = {
       "image_credit": "Unknown · Public domain · Wikimedia Commons",
       "image_license": "Public domain",
       "image_source_url": "https://commons.wikimedia.org/wiki/File:Frankenstein.1831.inside-cover_crop.jpg",
-      "number": 24,
-      "side": "right"
+      "number": 8,
+      "side": "left"
     },
     {
-      "id": "robots",
-      "name": "Robots ruling society",
+      "id": "puppet-master",
+      "name": "Puppet master",
       "quadrant": "overlord",
       "threat": "high",
       "agency": "high",
       "position": {
-        "x": 869,
-        "y": 374,
-        "nx": 0.749,
-        "ny": 0.804,
-        "rotation": 2
+        "x": 1114,
+        "y": 906,
+        "nx": 0.87,
+        "ny": 0.8,
+        "rotation": -4
       },
-      "description": "Embodied machines taking control of social and political structures.",
-      "image_file": "images/photo/robots.jpg",
+      "description": "AI covertly pulling the strings, manipulating human behaviour and society from behind the scenes.",
+      "image_file": "images/photo/puppet-master.jpg",
       "image_final": null,
-      "suggested_image": "army of Terminator-style robots marching, transparent cut-out",
+      "suggested_image": "marionette control cross with strings / hand working a puppet, transparent cut-out",
       "references": [
-        9
+        53
       ],
-      "number": 25,
-      "side": "right",
-      "image_cutout": "images/cutout/robots.png",
-      "image_credit": "Syced · CC0 · Wikimedia Commons",
-      "image_license": "CC0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:Humanoid_robot_at_Science_Square_Tsukuba.jpg"
-    },
-    {
-      "id": "overlord",
-      "name": "Menacing overlord",
-      "quadrant": "overlord",
-      "threat": "high",
-      "agency": "high",
-      "position": {
-        "x": 1065,
-        "y": 385,
-        "nx": 0.931,
-        "ny": 0.793,
-        "rotation": 3
-      },
-      "description": "A hostile superintelligence that deliberately dominates and rules over humanity.",
-      "image_file": "images/photo/overlord.jpg",
-      "image_final": "images/shoggoth.png",
-      "suggested_image": "dark menacing robot overlord / Sauron-like silhouette, transparent cut-out",
-      "references": [
-        5,
-        16
-      ],
-      "number": 26,
-      "side": "right",
-      "image_cutout": "images/cutout/overlord.png",
-      "image_credit": "“Shoggoth with smiley face”, @TetraspaceWest (2022) · via Know Your Meme",
-      "image_license": "meme (rights unclear)",
-      "image_source_url": "https://knowyourmeme.com/memes/shoggoth-with-smiley-face-artificial-intelligence"
+      "number": 9,
+      "side": "left",
+      "image_cutout": "images/cutout/puppet-master.png",
+      "image_credit": "Sydney Delle Donne · CC BY-SA 4.0 · Wikimedia Commons",
+      "image_license": "CC BY-SA 4.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Scene_from_%22A_Tale_of_Two_Mice%22_is_an_app_that_showcases_the_unique_marionette_puppetry_of_Sydney_Delle_Donne_and_her_%22Country_Mouse_Puppets%22_marionette_studios.jpg"
     },
     {
       "id": "sleeper-agent",
@@ -1209,10 +746,10 @@ window.MATRIX = {
       "threat": "high",
       "agency": "high",
       "position": {
-        "x": 816,
-        "y": 399,
-        "nx": 0.7,
-        "ny": 0.78,
+        "x": 883,
+        "y": 872,
+        "nx": 0.69,
+        "ny": 0.77,
         "rotation": -2
       },
       "description": "A model that behaves until triggered — deception trained so deep it survives our attempts to remove it.",
@@ -1226,36 +763,8 @@ window.MATRIX = {
       "image_credit": "Yuri Ribeiro Sucupira · CC0 · Wikimedia Commons",
       "image_license": "CC0",
       "image_source_url": "https://commons.wikimedia.org/wiki/File:Spy.png",
-      "number": 27,
-      "side": "right"
-    },
-    {
-      "id": "ant",
-      "name": "Human squishing an ant",
-      "quadrant": "overlord",
-      "threat": "high",
-      "agency": "high",
-      "position": {
-        "x": 760,
-        "y": 401,
-        "nx": 0.648,
-        "ny": 0.778,
-        "rotation": 3
-      },
-      "description": "A superintelligence so far beyond us that it harms humans with indifference, the way a person steps on an ant without malice.",
-      "image_file": "images/photo/ant.jpg",
-      "image_final": null,
-      "suggested_image": "a boot / giant hand above a tiny ant or human, transparent cut-out",
-      "references": [
-        5,
-        51
-      ],
-      "number": 28,
-      "side": "right",
-      "image_cutout": "images/cutout/ant.png",
-      "image_credit": "pictures Jettcom · CC BY 3.0 · Wikimedia Commons",
-      "image_license": "CC BY 3.0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:Insect_Alentejo_Algarve_Portugal_-_Macro_Photography_Canon_-_panoramio.jpg"
+      "number": 10,
+      "side": "left"
     },
     {
       "id": "golem",
@@ -1264,10 +773,10 @@ window.MATRIX = {
       "threat": "high",
       "agency": "high",
       "position": {
-        "x": 902,
-        "y": 463,
-        "nx": 0.78,
-        "ny": 0.72,
+        "x": 973,
+        "y": 826,
+        "nx": 0.76,
+        "ny": 0.73,
         "rotation": -3
       },
       "description": "The clay servant brought to life that may turn on its maker — the oldest cybernetic cautionary tale.",
@@ -1281,8 +790,63 @@ window.MATRIX = {
       "image_credit": "Michal Maňas · CC BY 4.0 · Wikimedia Commons",
       "image_license": "CC BY 4.0",
       "image_source_url": "https://commons.wikimedia.org/wiki/File:Clay-golem.jpg",
-      "number": 29,
-      "side": "right"
+      "number": 11,
+      "side": "left"
+    },
+    {
+      "id": "ant",
+      "name": "Human squishing an ant",
+      "quadrant": "overlord",
+      "threat": "high",
+      "agency": "high",
+      "position": {
+        "x": 1152,
+        "y": 826,
+        "nx": 0.9,
+        "ny": 0.73,
+        "rotation": 3
+      },
+      "description": "A superintelligence so far beyond us that it harms humans with indifference, the way a person steps on an ant without malice.",
+      "image_file": "images/photo/ant.jpg",
+      "image_final": null,
+      "suggested_image": "a boot / giant hand above a tiny ant or human, transparent cut-out",
+      "references": [
+        5,
+        51
+      ],
+      "number": 12,
+      "side": "left",
+      "image_cutout": "images/cutout/ant.png",
+      "image_credit": "pictures Jettcom · CC BY 3.0 · Wikimedia Commons",
+      "image_license": "CC BY 3.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Insect_Alentejo_Algarve_Portugal_-_Macro_Photography_Canon_-_panoramio.jpg"
+    },
+    {
+      "id": "wild-animal",
+      "name": "Wild animal",
+      "quadrant": "blind_force",
+      "threat": "high",
+      "agency": "low",
+      "position": {
+        "x": 358,
+        "y": 770,
+        "nx": 0.28,
+        "ny": 0.68,
+        "rotation": -3
+      },
+      "description": "A powerful, unpredictable, untamed force that can be dangerous if not contained.",
+      "image_file": "images/photo/wild-animal.jpg",
+      "image_final": null,
+      "suggested_image": "snarling lion or tiger, transparent cut-out",
+      "references": [
+        52
+      ],
+      "number": 13,
+      "side": "left",
+      "image_cutout": "images/cutout/wild-animal.png",
+      "image_credit": "Bernard DUPONT from FRANCE · CC BY-SA 2.0 · Wikimedia Commons",
+      "image_license": "CC BY-SA 2.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Lion_(Panthera_leo)_marking_its_territory_..._(51847917653).jpg"
     },
     {
       "id": "singularity",
@@ -1291,10 +855,10 @@ window.MATRIX = {
       "threat": "high",
       "agency": "high",
       "position": {
-        "x": 1113,
-        "y": 570,
-        "nx": 0.975,
-        "ny": 0.62,
+        "x": 1242,
+        "y": 770,
+        "nx": 0.97,
+        "ny": 0.68,
         "rotation": 0
       },
       "description": "The hypothesised point where machine intelligence outruns our own and triggers runaway, unknowable change — AGI and ASI as an event horizon beyond which prediction breaks down.",
@@ -1310,8 +874,8 @@ window.MATRIX = {
       "image_credit": "Event Horizon Telescope · CC BY 4.0 · Wikimedia Commons",
       "image_license": "CC BY 4.0",
       "image_source_url": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87.jpg",
-      "number": 30,
-      "side": "right"
+      "number": 14,
+      "side": "left"
     },
     {
       "id": "genie",
@@ -1320,10 +884,10 @@ window.MATRIX = {
       "threat": "high",
       "agency": "high",
       "position": {
-        "x": 744,
-        "y": 609,
-        "nx": 0.633,
-        "ny": 0.583,
+        "x": 1101,
+        "y": 691,
+        "nx": 0.86,
+        "ny": 0.61,
         "rotation": -2
       },
       "description": "A wish-granting power that delivers what you literally ask for, with the risk of unintended interpretations.",
@@ -1334,12 +898,39 @@ window.MATRIX = {
         36,
         48
       ],
-      "number": 31,
-      "side": "right",
+      "number": 15,
+      "side": "left",
       "image_cutout": "images/cutout/genie.png",
       "image_credit": "Vicki Nunn · Public domain · Wikimedia Commons",
       "image_license": "Public domain",
       "image_source_url": "https://commons.wikimedia.org/wiki/File:Genie_Lamps_007.JPG"
+    },
+    {
+      "id": "ecosystem",
+      "name": "Ecosystem",
+      "quadrant": "blind_force",
+      "threat": "high",
+      "agency": "low",
+      "position": {
+        "x": 538,
+        "y": 634,
+        "nx": 0.42,
+        "ny": 0.56,
+        "rotation": 2
+      },
+      "description": "AI as a complex, interdependent system that evolves and self-organises beyond any single designer's control.",
+      "image_file": "images/photo/ecosystem.jpg",
+      "image_final": null,
+      "suggested_image": "lush forest or coral reef ecosystem, transparent cut-out",
+      "references": [
+        30
+      ],
+      "number": 16,
+      "side": "left",
+      "image_cutout": "images/cutout/ecosystem.png",
+      "image_credit": "Nhobgood Nick Hobgood · CC BY-SA 3.0 · Wikimedia Commons",
+      "image_license": "CC BY-SA 3.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Soft_coral_peach_komodo.jpg"
     },
     {
       "id": "midas",
@@ -1348,10 +939,10 @@ window.MATRIX = {
       "threat": "high",
       "agency": "high",
       "position": {
-        "x": 815,
-        "y": 674,
-        "nx": 0.699,
-        "ny": 0.522,
+        "x": 998,
+        "y": 634,
+        "nx": 0.78,
+        "ny": 0.56,
         "rotation": -3
       },
       "description": "AI that gives you exactly what you specify, turning everything to “gold” with catastrophic side effects; the specification / alignment problem.",
@@ -1362,40 +953,67 @@ window.MATRIX = {
         36,
         48
       ],
-      "number": 32,
-      "side": "right",
+      "number": 17,
+      "side": "left",
       "image_cutout": "images/cutout/midas.png",
       "image_credit": "Walter Crane · Public domain · Wikimedia Commons",
       "image_license": "Public domain",
       "image_source_url": "https://commons.wikimedia.org/wiki/File:Midas_gold2.jpg"
     },
     {
-      "id": "brain",
-      "name": "Brain",
-      "quadrant": "protector",
-      "threat": "low",
-      "agency": "high",
+      "id": "sword",
+      "name": "Double-edged sword",
+      "quadrant": "blind_force",
+      "threat": "high",
+      "agency": "low",
       "position": {
-        "x": 1090,
-        "y": 725,
-        "nx": 0.954,
-        "ny": 0.474,
+        "x": 384,
+        "y": 577,
+        "nx": 0.3,
+        "ny": 0.51,
+        "rotation": 3
+      },
+      "description": "A tool equally capable of great benefit and great harm, depending on how it is used.",
+      "image_file": "images/photo/sword.jpg",
+      "image_final": null,
+      "suggested_image": "double-edged sword / dagger, transparent cut-out",
+      "references": [
+        6
+      ],
+      "number": 18,
+      "side": "left",
+      "image_cutout": "images/cutout/sword.png",
+      "image_credit": "Albion Europe ApS · CC BY 2.0 · Wikimedia Commons",
+      "image_license": "CC BY 2.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:The_Tritonia_05.jpg"
+    },
+    {
+      "id": "black-box",
+      "name": "Black box",
+      "quadrant": "humble_tool",
+      "threat": "low",
+      "agency": "low",
+      "position": {
+        "x": 282,
+        "y": 521,
+        "nx": 0.22,
+        "ny": 0.46,
         "rotation": -2
       },
-      "description": "AI as a disembodied mind, a thinking organ with potentially superhuman cognition. Sits near the top of the agency axis.",
-      "image_file": "images/photo/brain.jpg",
-      "image_final": "images/brain.jpg",
-      "suggested_image": "glowing brain / brain scan x-ray, transparent cut-out",
+      "description": "An opaque system whose inner workings we cannot inspect, only its inputs and outputs.",
+      "image_file": "images/photo/black-box.jpg",
+      "image_final": "images/hal.png",
+      "suggested_image": "matte black box / flight-recorder, transparent cut-out",
       "references": [
-        4,
-        37
+        8,
+        33
       ],
-      "number": 33,
-      "side": "right",
-      "image_cutout": "images/cutout/brain.png",
-      "image_credit": "“Expanding Brain” meme · via Know Your Meme · used illustratively",
-      "image_license": "meme (rights unclear)",
-      "image_source_url": "https://knowyourmeme.com/memes/expanding-brain"
+      "number": 19,
+      "side": "left",
+      "image_cutout": "images/cutout/black-box.png",
+      "image_credit": "Tom Cowap · CC BY-SA 4.0 · Wikimedia Commons",
+      "image_license": "CC BY-SA 4.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Hal_9000_Panel.svg"
     },
     {
       "id": "code-monkey",
@@ -1404,10 +1022,10 @@ window.MATRIX = {
       "threat": "low",
       "agency": "high",
       "position": {
-        "x": 924,
-        "y": 729,
-        "nx": 0.8,
-        "ny": 0.47,
+        "x": 960,
+        "y": 521,
+        "nx": 0.75,
+        "ny": 0.46,
         "rotation": -3
       },
       "description": "AI as the autonomous software developer — Devin and the wave of agentic coding tools that write, debug and ship code on their own.",
@@ -1422,8 +1040,63 @@ window.MATRIX = {
       "image_credit": "Jos Schippers · Public domain · Wikimedia Commons",
       "image_license": "Public domain",
       "image_source_url": "https://commons.wikimedia.org/wiki/File:Jos_Schippers_-_Portrait_of_a_chimpanzee.jpg",
-      "number": 34,
-      "side": "right"
+      "number": 20,
+      "side": "left"
+    },
+    {
+      "id": "brain",
+      "name": "Brain",
+      "quadrant": "protector",
+      "threat": "low",
+      "agency": "high",
+      "position": {
+        "x": 1203,
+        "y": 509,
+        "nx": 0.94,
+        "ny": 0.45,
+        "rotation": -2
+      },
+      "description": "AI as a disembodied mind, a thinking organ with potentially superhuman cognition. Sits near the top of the agency axis.",
+      "image_file": "images/photo/brain.jpg",
+      "image_final": "images/brain.jpg",
+      "suggested_image": "glowing brain / brain scan x-ray, transparent cut-out",
+      "references": [
+        4,
+        37
+      ],
+      "number": 21,
+      "side": "left",
+      "image_cutout": "images/cutout/brain.png",
+      "image_credit": "“Expanding Brain” meme · via Know Your Meme · used illustratively",
+      "image_license": "meme (rights unclear)",
+      "image_source_url": "https://knowyourmeme.com/memes/expanding-brain"
+    },
+    {
+      "id": "microbiome",
+      "name": "A microbiome / organism",
+      "quadrant": "humble_tool",
+      "threat": "low",
+      "agency": "low",
+      "position": {
+        "x": 448,
+        "y": 498,
+        "nx": 0.35,
+        "ny": 0.44,
+        "rotation": -3
+      },
+      "description": "AI as a living, growing, distributed organism enmeshed with human society.",
+      "image_file": "images/photo/microbiome.jpg",
+      "image_final": null,
+      "suggested_image": "microscope view of bacteria / cells, transparent cut-out",
+      "references": [
+        23
+      ],
+      "number": 22,
+      "side": "right",
+      "image_cutout": "images/cutout/microbiome.png",
+      "image_credit": "Photo by Eric Erbe, digital colorization by C… · Public domain · Wikimedia Commons",
+      "image_license": "Public domain",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:E_coli_at_10000x,_original.jpg"
     },
     {
       "id": "cyborg",
@@ -1432,9 +1105,9 @@ window.MATRIX = {
       "threat": "low",
       "agency": "high",
       "position": {
-        "x": 751,
-        "y": 761,
-        "nx": 0.64,
+        "x": 806,
+        "y": 498,
+        "nx": 0.63,
         "ny": 0.44,
         "rotation": 3
       },
@@ -1449,8 +1122,63 @@ window.MATRIX = {
       "image_credit": "FDA · Public domain · Wikimedia Commons",
       "image_license": "Public domain",
       "image_source_url": "https://commons.wikimedia.org/wiki/File:Brain-Controlled_Prosthetic_Arm_2.jpg",
-      "number": 35,
+      "number": 23,
       "side": "right"
+    },
+    {
+      "id": "mirror",
+      "name": "Mirror",
+      "quadrant": "humble_tool",
+      "threat": "low",
+      "agency": "low",
+      "position": {
+        "x": 128,
+        "y": 475,
+        "nx": 0.1,
+        "ny": 0.42,
+        "rotation": 2
+      },
+      "description": "AI as a reflection of humanity; it shows our own data, biases and culture back to us.",
+      "image_file": "images/photo/mirror.jpg",
+      "image_final": null,
+      "suggested_image": "ornate hand mirror reflecting, transparent cut-out",
+      "references": [
+        13,
+        44
+      ],
+      "number": 24,
+      "side": "right",
+      "image_cutout": "images/cutout/mirror.png",
+      "image_credit": "Chris Gunn · Public domain · Wikimedia Commons",
+      "image_license": "Public domain",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:A_Clear_Reflection_on_Webb_Telescope%27s_Secondary_Mirror_(8169557139).jpg"
+    },
+    {
+      "id": "child",
+      "name": "Child",
+      "quadrant": "humble_tool",
+      "threat": "low",
+      "agency": "low",
+      "position": {
+        "x": 576,
+        "y": 475,
+        "nx": 0.45,
+        "ny": 0.42,
+        "rotation": 2
+      },
+      "description": "AI as an immature being we raise and must teach values to; capable, but in need of guidance. Sits near the centre of the agency axis.",
+      "image_file": "images/photo/child.jpg",
+      "image_final": null,
+      "suggested_image": "toddler reaching up, transparent cut-out",
+      "references": [
+        42
+      ],
+      "number": 25,
+      "side": "right",
+      "image_cutout": "images/cutout/child.png",
+      "image_credit": "Kyle Peyton · CC BY 2.0 · Wikimedia Commons",
+      "image_license": "CC BY 2.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Toddler_wearing_nappy.jpg"
     },
     {
       "id": "oracle",
@@ -1459,10 +1187,10 @@ window.MATRIX = {
       "threat": "low",
       "agency": "high",
       "position": {
-        "x": 989,
-        "y": 825,
-        "nx": 0.86,
-        "ny": 0.38,
+        "x": 1088,
+        "y": 453,
+        "nx": 0.85,
+        "ny": 0.4,
         "rotation": -3
       },
       "description": "AI consulted as a seer — the super-forecaster and world-simulator we ask to foretell the future, trusting its predictions as prophecy.",
@@ -1477,35 +1205,35 @@ window.MATRIX = {
       "image_credit": "John Collier · Public domain · Wikimedia Commons",
       "image_license": "Public domain",
       "image_source_url": "https://commons.wikimedia.org/wiki/File:John_Collier_-_Priestess_of_Delphi_-_Google_Art_Project.jpg",
-      "number": 36,
+      "number": 26,
       "side": "right"
     },
     {
-      "id": "copilot",
-      "name": "Co-pilot",
-      "quadrant": "protector",
+      "id": "alchemy",
+      "name": "Alchemy",
+      "quadrant": "humble_tool",
       "threat": "low",
-      "agency": "high",
+      "agency": "low",
       "position": {
-        "x": 855,
-        "y": 879,
-        "nx": 0.736,
-        "ny": 0.33,
+        "x": 384,
+        "y": 430,
+        "nx": 0.3,
+        "ny": 0.38,
         "rotation": -3
       },
-      "description": "AI as an assistant working alongside humans, augmenting rather than replacing; the human stays in control.",
-      "image_file": "images/photo/copilot.jpg",
-      "image_final": "images/clippy.png",
-      "suggested_image": "aircraft co-pilot / hands on the yoke, transparent cut-out",
+      "description": "Powerful results we cannot explain; a practice that works without a theory of why.",
+      "image_file": "images/photo/alchemy.jpg",
+      "image_final": null,
+      "suggested_image": "Alchemy, transparent cut-out",
       "references": [
-        28
+        34
       ],
-      "number": 37,
-      "side": "right",
-      "image_cutout": "images/cutout/copilot.png",
-      "image_credit": "Clippit (Office Assistant) · © Microsoft · non-free, illustrative",
-      "image_license": "© Microsoft (non-free)",
-      "image_source_url": "https://en.wikipedia.org/wiki/Office_Assistant"
+      "image_cutout": "images/cutout/alchemy.png",
+      "image_credit": "Joseph Wright of Derby · Public domain · Wikimedia Commons",
+      "image_license": "Public domain",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Joseph_Wright_of_Derby_The_Alchemist.jpg",
+      "number": 27,
+      "side": "right"
     },
     {
       "id": "ai-lover",
@@ -1514,10 +1242,10 @@ window.MATRIX = {
       "threat": "low",
       "agency": "high",
       "position": {
-        "x": 654,
-        "y": 889,
-        "nx": 0.55,
-        "ny": 0.32,
+        "x": 691,
+        "y": 419,
+        "nx": 0.54,
+        "ny": 0.37,
         "rotation": 3
       },
       "description": "AI as intimate companion — the AI girlfriend, Character.AI and Replika: a system designed to be loved, and to be confided in.",
@@ -1531,8 +1259,89 @@ window.MATRIX = {
       "image_credit": "Polimorph · Public domain · Wikimedia Commons",
       "image_license": "Public domain",
       "image_source_url": "https://commons.wikimedia.org/wiki/File:Humanoid_robot_and_woman_retrieve_infomation_-_includes_a_visible_typical_error_of_recent_AI_generated_pictures.png",
-      "number": 38,
+      "number": 28,
       "side": "right"
+    },
+    {
+      "id": "blurry-jpeg",
+      "name": "A blurry JPEG of the web",
+      "quadrant": "humble_tool",
+      "threat": "low",
+      "agency": "low",
+      "position": {
+        "x": 307,
+        "y": 385,
+        "nx": 0.24,
+        "ny": 0.34,
+        "rotation": 2
+      },
+      "description": "A lossy compression of everything written online; fluent approximation that blurs the facts it restates.",
+      "image_file": "images/photo/blurry-jpeg.jpg",
+      "image_final": null,
+      "suggested_image": "A blurry JPEG of the web, transparent cut-out",
+      "references": [
+        10
+      ],
+      "image_cutout": "images/cutout/blurry-jpeg.png",
+      "image_credit": "NASA / Apollo 17 (pixelated derivative) · Public domain · Wikimedia Commons",
+      "image_license": "Public domain",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+      "number": 29,
+      "side": "right"
+    },
+    {
+      "id": "intern",
+      "name": "The intern",
+      "quadrant": "protector",
+      "threat": "low",
+      "agency": "high",
+      "position": {
+        "x": 666,
+        "y": 340,
+        "nx": 0.52,
+        "ny": 0.3,
+        "rotation": -3
+      },
+      "description": "A fast, eager, capable junior that bends the truth — brilliant, never to be trusted unchecked.",
+      "image_file": "images/photo/intern.jpg",
+      "image_final": null,
+      "suggested_image": "The intern, transparent cut-out",
+      "references": [
+        29
+      ],
+      "image_cutout": "images/cutout/intern.png",
+      "image_credit": "Shixart1985 · CC BY 2.0 · Wikimedia Commons",
+      "image_license": "CC BY 2.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Middle-aged_businesswoman_typing_on_laptop_at_home_office.jpg",
+      "number": 30,
+      "side": "right"
+    },
+    {
+      "id": "copilot",
+      "name": "Co-pilot",
+      "quadrant": "protector",
+      "threat": "low",
+      "agency": "high",
+      "position": {
+        "x": 896,
+        "y": 340,
+        "nx": 0.7,
+        "ny": 0.3,
+        "rotation": -3
+      },
+      "description": "AI as an assistant working alongside humans, augmenting rather than replacing; the human stays in control.",
+      "image_file": "images/photo/copilot.jpg",
+      "image_final": "images/clippy.png",
+      "suggested_image": "aircraft co-pilot / hands on the yoke, transparent cut-out",
+      "references": [
+        28
+      ],
+      "number": 31,
+      "side": "right",
+      "image_cutout": "images/cutout/copilot.png",
+      "image_credit": "Clippit (Office Assistant) · © Microsoft · non-free, illustrative",
+      "image_license": "© Microsoft (non-free)",
+      "image_source_url": "https://en.wikipedia.org/wiki/Office_Assistant"
     },
     {
       "id": "country-geniuses",
@@ -1541,10 +1350,10 @@ window.MATRIX = {
       "threat": "low",
       "agency": "high",
       "position": {
-        "x": 967,
-        "y": 889,
-        "nx": 0.84,
-        "ny": 0.32,
+        "x": 1139,
+        "y": 340,
+        "nx": 0.89,
+        "ny": 0.3,
         "rotation": 2
       },
       "description": "A nation of brilliant minds in a datacenter, poised to cure disease and remake the world — if it stays aligned.",
@@ -1558,8 +1367,90 @@ window.MATRIX = {
       "image_credit": "BalticServers.com · CC BY-SA 3.0 · Wikimedia Commons",
       "image_license": "CC BY-SA 3.0",
       "image_source_url": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg",
-      "number": 39,
+      "number": 32,
       "side": "right"
+    },
+    {
+      "id": "ghost-work",
+      "name": "The Mechanical Turk",
+      "quadrant": "humble_tool",
+      "threat": "low",
+      "agency": "low",
+      "position": {
+        "x": 256,
+        "y": 306,
+        "nx": 0.2,
+        "ny": 0.27,
+        "rotation": 2
+      },
+      "description": "Seemingly autonomous intelligence quietly powered by an invisible workforce of human labour.",
+      "image_file": "images/photo/ghost-work.png",
+      "image_final": null,
+      "suggested_image": "The Mechanical Turk, transparent cut-out",
+      "references": [
+        17
+      ],
+      "image_cutout": "images/cutout/ghost-work.png",
+      "image_credit": "Willis, Robert, 1800-1875 · Public domain · Wikimedia Commons",
+      "image_license": "Public domain",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Chess_Automaton_Willis_1821_09.png",
+      "number": 33,
+      "side": "right"
+    },
+    {
+      "id": "hammer",
+      "name": "Tool (hammer)",
+      "quadrant": "humble_tool",
+      "threat": "low",
+      "agency": "low",
+      "position": {
+        "x": 166,
+        "y": 272,
+        "nx": 0.13,
+        "ny": 0.24,
+        "rotation": -4
+      },
+      "description": "AI as a neutral instrument; its value and danger come entirely from how a human wields it.",
+      "image_file": "images/photo/hammer.jpg",
+      "image_final": null,
+      "suggested_image": "claw hammer, transparent cut-out",
+      "references": [
+        25,
+        50
+      ],
+      "number": 34,
+      "side": "right",
+      "image_cutout": "images/cutout/hammer.png",
+      "image_credit": "HutheMeow · CC BY-SA 4.0 · Wikimedia Commons",
+      "image_license": "CC BY-SA 4.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Claw_hammer_2.jpg"
+    },
+    {
+      "id": "domestic-animal",
+      "name": "Domesticated animal",
+      "quadrant": "humble_tool",
+      "threat": "low",
+      "agency": "low",
+      "position": {
+        "x": 512,
+        "y": 272,
+        "nx": 0.4,
+        "ny": 0.24,
+        "rotation": 3
+      },
+      "description": "A tamed, useful, mostly predictable companion that still keeps its own drives.",
+      "image_file": "images/photo/domestic-animal.jpg",
+      "image_final": null,
+      "suggested_image": "domestic dog sitting, transparent cut-out",
+      "references": [
+        39
+      ],
+      "number": 35,
+      "side": "right",
+      "image_cutout": "images/cutout/domestic-animal.png",
+      "image_credit": "Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons",
+      "image_license": "CC BY-SA 4.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Hausd%C3%BClmen,_Golden_Retriever_--_2022_--_5945.jpg"
     },
     {
       "id": "centaur",
@@ -1568,10 +1459,10 @@ window.MATRIX = {
       "threat": "low",
       "agency": "high",
       "position": {
-        "x": 686,
-        "y": 911,
-        "nx": 0.58,
-        "ny": 0.3,
+        "x": 768,
+        "y": 272,
+        "nx": 0.6,
+        "ny": 0.24,
         "rotation": -2
       },
       "description": "Human and machine fused into one team that outperforms either alone.",
@@ -1585,35 +1476,8 @@ window.MATRIX = {
       "image_credit": "William Rimmer · CC0 · Wikimedia Commons",
       "image_license": "CC0",
       "image_source_url": "https://commons.wikimedia.org/wiki/File:William_Rimmer,_Dying_Centaur,_model_1869,_cast_1967,_NGA_50844.jpg",
-      "number": 40,
+      "number": 36,
       "side": "right"
-    },
-    {
-      "id": "dog-owner",
-      "name": "AI as “dog-owner” to humans",
-      "quadrant": "protector",
-      "threat": "low",
-      "agency": "high",
-      "position": {
-        "x": 802,
-        "y": 1017,
-        "nx": 0.687,
-        "ny": 0.2,
-        "rotation": 4
-      },
-      "description": "Role reversal where AI is the master and humans the well-kept pets, comfortable but subordinate.",
-      "image_file": "images/photo/dog-owner.jpg",
-      "image_final": null,
-      "suggested_image": "person walking a dog on a leash (read as role-reversed), transparent cut-out",
-      "references": [
-        51
-      ],
-      "number": 41,
-      "side": "right",
-      "image_cutout": "images/cutout/dog-owner.png",
-      "image_credit": "Pam Brophy · CC BY-SA 2.0 · Wikimedia Commons",
-      "image_license": "CC BY-SA 2.0",
-      "image_source_url": "https://commons.wikimedia.org/wiki/File:Dog_Walking_in_Snowy_Woolhampton_-_geograph.org.uk_-_333349.jpg"
     },
     {
       "id": "electricity",
@@ -1622,10 +1486,10 @@ window.MATRIX = {
       "threat": "low",
       "agency": "high",
       "position": {
-        "x": 881,
-        "y": 1017,
-        "nx": 0.76,
-        "ny": 0.2,
+        "x": 1011,
+        "y": 249,
+        "nx": 0.79,
+        "ny": 0.22,
         "rotation": 2
       },
       "description": "A general-purpose utility, like electric power, poised to transform every industry.",
@@ -1639,8 +1503,90 @@ window.MATRIX = {
       "image_credit": "Gauravggs · CC BY-SA 4.0 · Wikimedia Commons",
       "image_license": "CC BY-SA 4.0",
       "image_source_url": "https://commons.wikimedia.org/wiki/File:Incandescent_Lamp_Filament.jpg",
-      "number": 42,
+      "number": 37,
       "side": "right"
+    },
+    {
+      "id": "dog-owner",
+      "name": "AI as “dog-owner” to humans",
+      "quadrant": "protector",
+      "threat": "low",
+      "agency": "high",
+      "position": {
+        "x": 896,
+        "y": 204,
+        "nx": 0.7,
+        "ny": 0.18,
+        "rotation": 4
+      },
+      "description": "Role reversal where AI is the master and humans the well-kept pets, comfortable but subordinate.",
+      "image_file": "images/photo/dog-owner.jpg",
+      "image_final": null,
+      "suggested_image": "person walking a dog on a leash (read as role-reversed), transparent cut-out",
+      "references": [
+        51
+      ],
+      "number": 38,
+      "side": "right",
+      "image_cutout": "images/cutout/dog-owner.png",
+      "image_credit": "Pam Brophy · CC BY-SA 2.0 · Wikimedia Commons",
+      "image_license": "CC BY-SA 2.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Dog_Walking_in_Snowy_Woolhampton_-_geograph.org.uk_-_333349.jpg"
+    },
+    {
+      "id": "butler",
+      "name": "Butler or slave",
+      "quadrant": "humble_tool",
+      "threat": "low",
+      "agency": "low",
+      "position": {
+        "x": 448,
+        "y": 170,
+        "nx": 0.35,
+        "ny": 0.15,
+        "rotation": 4
+      },
+      "description": "An obedient servant that performs labour on command; raises questions of autonomy and exploitation.",
+      "image_file": "images/photo/butler.jpg",
+      "image_final": null,
+      "suggested_image": "tuxedo butler holding a tray, transparent cut-out",
+      "references": [
+        7,
+        9
+      ],
+      "number": 39,
+      "side": "right",
+      "image_cutout": "images/cutout/butler.png",
+      "image_credit": "Shixart1985 · CC BY 2.0 · Wikimedia Commons",
+      "image_license": "CC BY 2.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Serving_coffee_in_a_cafe_during_the_morning_hours_with_a_waiter_carrying_a_tray_of_drinks_for_customers.jpg"
+    },
+    {
+      "id": "parrot",
+      "name": "Parrot",
+      "quadrant": "humble_tool",
+      "threat": "low",
+      "agency": "low",
+      "position": {
+        "x": 102,
+        "y": 136,
+        "nx": 0.08,
+        "ny": 0.12,
+        "rotation": 3
+      },
+      "description": "The “stochastic parrot”: AI that mimics and recombines language without genuine understanding.",
+      "image_file": "images/photo/parrot.jpg",
+      "image_final": "images/parrot.jpg",
+      "suggested_image": "scarlet macaw parrot, transparent cut-out",
+      "references": [
+        3
+      ],
+      "number": 40,
+      "side": "right",
+      "image_cutout": "images/cutout/parrot.png",
+      "image_credit": "Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons",
+      "image_license": "CC BY-SA 4.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Scarlet_macaw_(Ara_macao_cyanopterus)_Copan.jpg"
     },
     {
       "id": "guardian-angel",
@@ -1649,10 +1595,10 @@ window.MATRIX = {
       "threat": "low",
       "agency": "high",
       "position": {
-        "x": 981,
-        "y": 1155,
-        "nx": 0.853,
-        "ny": 0.07,
+        "x": 1114,
+        "y": 136,
+        "nx": 0.87,
+        "ny": 0.12,
         "rotation": 3
       },
       "description": "A benevolent, protective intelligence that safeguards humans and intervenes on our behalf.",
@@ -1662,12 +1608,39 @@ window.MATRIX = {
       "references": [
         15
       ],
-      "number": 43,
+      "number": 41,
       "side": "right",
       "image_cutout": "images/cutout/guardian-angel.png",
       "image_credit": "Jiří Sedláček · CC BY-SA 4.0 · Wikimedia Commons",
       "image_license": "CC BY-SA 4.0",
       "image_source_url": "https://commons.wikimedia.org/wiki/File:Overview_of_statue_of_Guardian_angel_near_Jarom%C4%9B%C5%99ice_nad_Rokytnou,_T%C5%99eb%C3%AD%C4%8D_District.jpg"
+    },
+    {
+      "id": "eliza",
+      "name": "The therapist (ELIZA)",
+      "quadrant": "humble_tool",
+      "threat": "low",
+      "agency": "low",
+      "position": {
+        "x": 256,
+        "y": 102,
+        "nx": 0.2,
+        "ny": 0.09,
+        "rotation": -2
+      },
+      "description": "A mirror that listens; the confidant we over-trust, projecting understanding onto a simple program.",
+      "image_file": "images/photo/eliza.jpg",
+      "image_final": null,
+      "suggested_image": "The therapist (ELIZA), transparent cut-out",
+      "references": [
+        47
+      ],
+      "image_cutout": "images/cutout/eliza.png",
+      "image_credit": "Secretlondon · CC BY-SA 4.0 · Wikimedia Commons",
+      "image_license": "CC BY-SA 4.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Freud%E2%80%99s_couch_in_Freud_museum.jpg",
+      "number": 42,
+      "side": "right"
     },
     {
       "id": "god",
@@ -1676,10 +1649,10 @@ window.MATRIX = {
       "threat": "low",
       "agency": "high",
       "position": {
-        "x": 1064,
-        "y": 1177,
-        "nx": 0.93,
-        "ny": 0.05,
+        "x": 1216,
+        "y": 68,
+        "nx": 0.95,
+        "ny": 0.06,
         "rotation": -3
       },
       "description": "AI imagined as an omniscient, godlike higher power that is fundamentally good and watches over humanity.",
@@ -1690,7 +1663,7 @@ window.MATRIX = {
         18,
         32
       ],
-      "number": 44,
+      "number": 43,
       "side": "right",
       "image_cutout": "images/cutout/god.png",
       "image_credit": "Michelangelo · Public domain · Wikimedia Commons",

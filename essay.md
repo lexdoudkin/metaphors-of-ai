@@ -18,7 +18,7 @@ This is not a harmless habit. As Shanahan notes, the more fluently these systems
 
 ## 2. The map: potency × threat
 
-Charlie Stein's original "Metaphors of AI" diagram (2024) arranges the dominant metaphors on two axes. The horizontal axis is **potency** — from a weak, limited instrument with little power over the world to an omnipotent one. The vertical axis is **threat** — from non-threatening at the bottom to threatening at the top. The two axes carve the field into four quadrants — *Humble servant* (weak, non-threatening), *Omnipotent protector* (omnipotent, non-threatening), *Menacing overlord* (omnipotent, threatening), and *Inept tool* (weak but potentially dangerous). To Stein's original set we have added a further twenty figures, classical and contemporary, from the singularity and the autonomous coder to the golem, the bullshitter, the sleeper agent and the bomb.
+Charlie Stein's original "Metaphors of AI" diagram (2024) arranges the dominant metaphors on two axes. The horizontal axis is **potency** — from a weak, limited instrument with little power over the world to an omnipotent one. The vertical axis is **threat** — from non-threatening at the bottom to threatening at the top. The two axes carve the field into four quadrants — *Humble servant* (weak, non-threatening), *Omnipotent protector* (omnipotent, non-threatening), *Menacing overlord* (omnipotent, threatening), and *Blind force* (weak in agency but potentially dangerous). To Stein's original set we have added a further nineteen figures, classical and contemporary, from the singularity and the autonomous coder to the golem, the sleeper agent and the bomb.
 
 We attach to each metaphor at least one source where the figure is seriously advanced or analysed; the wider set is indebted to anthologies of AI's cultural imaginaries, in particular the *Atlas of Anomalous AI* [45]. The point of the citations is to show that these are not idle images: most have a genuine intellectual lineage, and several were coined by the field's founders.
 
@@ -34,9 +34,9 @@ Here the machine is powerful but benign. The **co-pilot** descends from Licklide
 
 This is the quadrant of intentional menace. The **menacing overlord** is the superintelligence of Bostrom's *Superintelligence* [5], whose logic traces to I. J. Good's 1965 "intelligence explosion" [16]; its most dramatic form is the **Singularity** itself — Vinge's event horizon [46], Kurzweil's post-biological future [26]. Older than either are the creature-myths: the **golem**, the animated servant that turns on its maker, which Norbert Wiener made the title figure of his last book on cybernetics and religion [49]; and **Frankenstein's monster**, Mary Shelley's creation that destroys its creator [38]. Their modern descendants are sharper: the **sleeper agent**, Anthropic's model trained to behave until a trigger flips it — deception that survives our attempts to scrub it out [21]; and, at the largest scale, **the bomb** — AI reframed as a strategic weapon and a national-security race run on the logic of the Manhattan Project, as in Aschenbrenner's "Situational Awareness" [2]. The **King Midas** and the **genie** are the alignment problem in plainer clothes: a system that gives you exactly what you asked for, not what you meant — named by Wiener in 1960 [48], made central by Russell [36]. The **puppet master** shifts the threat from domination to manipulation, Zuboff's surveillance capitalism [53]. **Robots ruling society** is Čapek's original nightmare [9]; and the **human squishing an ant** captures indifference rather than malice — Bostrom's anthill, Wozniak's insects underfoot [5][51].
 
-### Inept tool (weak, threatening)
+### Blind force (weak in agency, threatening)
 
-The most fatalistic quadrant: here AI has little will of its own, only scale and momentum, yet it can still do harm. It is a **hurricane** or a **tsunami** — Suleyman's "coming wave" [40]; the **job-killer**, the engine of technological unemployment named by Keynes in 1930 [24] and quantified by Frey and Osborne [14]; **Pandora's box** or a **double-edged sword**, the dual-use framing of Brundage and colleagues [6]. It is a **wild animal**, powerful and untamed, echoing Yampolskiy on uncontrollability [52]; the **bullshitter**, indifferent to truth in Frankfurt's precise sense, neither lying nor hallucinating [20]; and the **slaughterbots**, the cheap autonomous weapons that select and kill with no human in the loop, the warning of Russell's film [35]. In its least anxious form the quadrant softens into an **ecosystem** (Nardi and O'Day's "information ecologies" [30]) or a living **organism** — Kelly's "technium" [23].
+The most fatalistic quadrant: here AI has little will of its own, only scale and momentum, yet it can still do harm. It is a **hurricane** or a **tsunami** — Suleyman's "coming wave" [40]; the **job-killer**, the engine of technological unemployment named by Keynes in 1930 [24] and quantified by Frey and Osborne [14]; **Pandora's box** or a **double-edged sword**, the dual-use framing of Brundage and colleagues [6]. It is a **wild animal**, powerful and untamed, echoing Yampolskiy on uncontrollability [52]; and the **slaughterbots**, the cheap autonomous weapons that select and kill with no human in the loop, the warning of Russell's film [35]. In its least anxious form the quadrant softens into an **ecosystem** (Nardi and O'Day's "information ecologies" [30]) or a living **organism** — Kelly's "technium" [23].
 
 ## 3. The argument: metaphors carry policy
 
@@ -114,47 +114,46 @@ The map does not tell you which metaphor is correct. Its usefulness is the oppos
 
 Every picture on the diagram is a cut-out — cropped, with its background removed — of the source below; these are derivative works. Wikimedia Commons files are reused under the licenses noted (CC / public domain); Clippit, the Shoggoth and the Expanding-Brain meme are used illustratively and remain their owners.
 
-1. **Hurricane, tsunami** — Alexander Gerst · Public domain · Wikimedia Commons  
-2. **The job-killer** — Oleg Yunakov · CC BY-SA 4.0 · Wikimedia Commons  
+1. **The bomb** — U.S. Department of Defense · Public domain · Wikimedia Commons  
+2. **Hurricane, tsunami** — Alexander Gerst · Public domain · Wikimedia Commons  
 3. **Slaughterbots** — АрміяInform · CC BY 4.0 · Wikimedia Commons  
 4. **Pandora’s box** — Ludovic Bertron from New York City, Usa · CC BY 2.0 · Wikimedia Commons  
-5. **Ecosystem** — Nhobgood Nick Hobgood · CC BY-SA 3.0 · Wikimedia Commons  
-6. **Wild animal** — Bernard DUPONT from FRANCE · CC BY-SA 2.0 · Wikimedia Commons  
-7. **A microbiome / organism** — Photo by Eric Erbe, digital colorization by C… · Public domain · Wikimedia Commons  
-8. **Double-edged sword** — Albion Europe ApS · CC BY 2.0 · Wikimedia Commons  
-9. **The bullshitter** — Gordon Leggett · CC BY-SA 4.0 · Wikimedia Commons  
-10. **Mirror** — Chris Gunn · Public domain · Wikimedia Commons  
-11. **Black box** — Tom Cowap · CC BY-SA 4.0 · Wikimedia Commons  
-12. **Child** — Kyle Peyton · CC BY 2.0 · Wikimedia Commons  
-13. **The intern** — Shixart1985 · CC BY 2.0 · Wikimedia Commons  
-14. **Alchemy** — Joseph Wright of Derby · Public domain · Wikimedia Commons  
-15. **A blurry JPEG of the web** — NASA / Apollo 17 (pixelated derivative) · Public domain · Wikimedia Commons  
-16. **Domesticated animal** — Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons  
-17. **The therapist (ELIZA)** — Secretlondon · CC BY-SA 4.0 · Wikimedia Commons  
-18. **Tool (hammer)** — HutheMeow · CC BY-SA 4.0 · Wikimedia Commons  
-19. **The Mechanical Turk** — Willis, Robert, 1800-1875 · Public domain · Wikimedia Commons  
-20. **Butler or slave** — Shixart1985 · CC BY 2.0 · Wikimedia Commons  
-21. **Parrot** — Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons  
-22. **The bomb** — U.S. Department of Defense · Public domain · Wikimedia Commons  
-23. **Puppet master** — Sydney Delle Donne · CC BY-SA 4.0 · Wikimedia Commons  
-24. **Frankenstein’s monster** — Unknown · Public domain · Wikimedia Commons  
-25. **Robots ruling society** — Syced · CC0 · Wikimedia Commons  
-26. **Menacing overlord** — “Shoggoth with smiley face”, @TetraspaceWest (2022) · via Know Your Meme  
-27. **The sleeper agent** — Yuri Ribeiro Sucupira · CC0 · Wikimedia Commons  
-28. **Human squishing an ant** — pictures Jettcom · CC BY 3.0 · Wikimedia Commons  
-29. **The golem** — Michal Maňas · CC BY 4.0 · Wikimedia Commons  
-30. **The Singularity** — Event Horizon Telescope · CC BY 4.0 · Wikimedia Commons  
-31. **Genie** — SarKaLay စာကလေး · CC BY-SA 4.0 · Wikimedia Commons  
-32. **King Midas** — Walter Crane · Public domain · Wikimedia Commons  
-33. **Brain** — “Expanding Brain” meme · via Know Your Meme · used illustratively  
-34. **The code monkey** — Jos Schippers · Public domain · Wikimedia Commons  
-35. **The cyborg** — FDA · Public domain · Wikimedia Commons  
-36. **The Oracle** — John Collier · Public domain · Wikimedia Commons  
-37. **Co-pilot** — Clippit (Office Assistant) · © Microsoft · non-free, illustrative  
-38. **The artificial lover** — Polimorph · Public domain · Wikimedia Commons  
-39. **A country of geniuses** — BalticServers.com · CC BY-SA 3.0 · Wikimedia Commons  
-40. **The centaur** — William Rimmer · CC0 · Wikimedia Commons  
-41. **AI as “dog-owner” to humans** — Pam Brophy · CC BY-SA 2.0 · Wikimedia Commons  
-42. **The new electricity** — Gauravggs · CC BY-SA 4.0 · Wikimedia Commons  
-43. **Guardian angel** — Jiří Sedláček · CC BY-SA 4.0 · Wikimedia Commons  
-44. **Supernatural entity / benevolent God** — Michelangelo · Public domain · Wikimedia Commons
+5. **Menacing overlord** — “Shoggoth with smiley face”, @TetraspaceWest (2022) · via Know Your Meme  
+6. **The job-killer** — Oleg Yunakov · CC BY-SA 4.0 · Wikimedia Commons  
+7. **Robots ruling society** — Syced · CC0 · Wikimedia Commons  
+8. **Frankenstein’s monster** — Unknown · Public domain · Wikimedia Commons  
+9. **Puppet master** — Sydney Delle Donne · CC BY-SA 4.0 · Wikimedia Commons  
+10. **The sleeper agent** — Yuri Ribeiro Sucupira · CC0 · Wikimedia Commons  
+11. **The golem** — Michal Maňas · CC BY 4.0 · Wikimedia Commons  
+12. **Human squishing an ant** — pictures Jettcom · CC BY 3.0 · Wikimedia Commons  
+13. **Wild animal** — Bernard DUPONT from FRANCE · CC BY-SA 2.0 · Wikimedia Commons  
+14. **The Singularity** — Event Horizon Telescope · CC BY 4.0 · Wikimedia Commons  
+15. **Genie** — Vicki Nunn · Public domain · Wikimedia Commons  
+16. **Ecosystem** — Nhobgood Nick Hobgood · CC BY-SA 3.0 · Wikimedia Commons  
+17. **King Midas** — Walter Crane · Public domain · Wikimedia Commons  
+18. **Double-edged sword** — Albion Europe ApS · CC BY 2.0 · Wikimedia Commons  
+19. **Black box** — Tom Cowap · CC BY-SA 4.0 · Wikimedia Commons  
+20. **The code monkey** — Jos Schippers · Public domain · Wikimedia Commons  
+21. **Brain** — “Expanding Brain” meme · via Know Your Meme · used illustratively  
+22. **A microbiome / organism** — Photo by Eric Erbe, digital colorization by C… · Public domain · Wikimedia Commons  
+23. **The cyborg** — FDA · Public domain · Wikimedia Commons  
+24. **Mirror** — Chris Gunn · Public domain · Wikimedia Commons  
+25. **Child** — Kyle Peyton · CC BY 2.0 · Wikimedia Commons  
+26. **The Oracle** — John Collier · Public domain · Wikimedia Commons  
+27. **Alchemy** — Joseph Wright of Derby · Public domain · Wikimedia Commons  
+28. **The artificial lover** — Polimorph · Public domain · Wikimedia Commons  
+29. **A blurry JPEG of the web** — NASA / Apollo 17 (pixelated derivative) · Public domain · Wikimedia Commons  
+30. **The intern** — Shixart1985 · CC BY 2.0 · Wikimedia Commons  
+31. **Co-pilot** — Clippit (Office Assistant) · © Microsoft · non-free, illustrative  
+32. **A country of geniuses** — BalticServers.com · CC BY-SA 3.0 · Wikimedia Commons  
+33. **The Mechanical Turk** — Willis, Robert, 1800-1875 · Public domain · Wikimedia Commons  
+34. **Tool (hammer)** — HutheMeow · CC BY-SA 4.0 · Wikimedia Commons  
+35. **Domesticated animal** — Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons  
+36. **The centaur** — William Rimmer · CC0 · Wikimedia Commons  
+37. **The new electricity** — Gauravggs · CC BY-SA 4.0 · Wikimedia Commons  
+38. **AI as “dog-owner” to humans** — Pam Brophy · CC BY-SA 2.0 · Wikimedia Commons  
+39. **Butler or slave** — Shixart1985 · CC BY 2.0 · Wikimedia Commons  
+40. **Parrot** — Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons  
+41. **Guardian angel** — Jiří Sedláček · CC BY-SA 4.0 · Wikimedia Commons  
+42. **The therapist (ELIZA)** — Secretlondon · CC BY-SA 4.0 · Wikimedia Commons  
+43. **Supernatural entity / benevolent God** — Michelangelo · Public domain · Wikimedia Commons  
