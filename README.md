@@ -23,7 +23,8 @@ printed on the poster itself and in the essay.
 
 | File | What it is |
 |------|------------|
-| `Metaphors-of-AI_matrix.pdf` | The poster (the diagram + on‑sheet reference list). |
+| `Metaphors-of-AI_matrix.pdf` | The poster — single‑page **vector** PDF with clickable source links. |
+| `Metaphors-of-AI_matrix_print.pdf` | The poster — **300 dpi** raster for print (22 × 27 in). |
 | `Metaphors-of-AI_essay.pdf` | The companion essay (≈3,400 words) as A4. |
 | `essay.md` | Essay source, with full bibliography + image credits. |
 | `index.html` | The diagram renderer — open it in a browser (it reads `points.js`). |
