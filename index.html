@@ -74,7 +74,7 @@ board.appendChild(svg);
 (function(){const td=document.createElementNS(NS,"defs");
   const QT=[['tl',MX0,MY0,'217,145,47'],['tr',MX1,MY0,'210,66,66'],
     ['bl',MX0,MY1,'74,127,224'],['br',MX1,MY1,'43,176,160']];
-  td.innerHTML=QT.map(q=>'<radialGradient id="qt_'+q[0]+'" gradientUnits="userSpaceOnUse" cx="'+q[1]+'" cy="'+q[2]+'" r="1180"><stop offset="0" stop-color="rgb('+q[3]+')" stop-opacity="0.17"/><stop offset="52%" stop-color="rgb('+q[3]+')" stop-opacity="0.045"/><stop offset="100%" stop-color="rgb('+q[3]+')" stop-opacity="0"/></radialGradient>').join('');
+  td.innerHTML=QT.map(q=>'<radialGradient id="qt_'+q[0]+'" gradientUnits="userSpaceOnUse" cx="'+q[1]+'" cy="'+q[2]+'" r="1180"><stop offset="0" stop-color="rgb('+q[3]+')" stop-opacity="0.27"/><stop offset="52%" stop-color="rgb('+q[3]+')" stop-opacity="0.085"/><stop offset="100%" stop-color="rgb('+q[3]+')" stop-opacity="0"/></radialGradient>').join('');
   svg.appendChild(td);
   function rc(x,y,w,h,f){const r=document.createElementNS(NS,"rect");r.setAttribute("x",x);r.setAttribute("y",y);r.setAttribute("width",w);r.setAttribute("height",h);r.setAttribute("fill",f);svg.appendChild(r);}
   rc(MX0,MY0,cx-MX0,cy-MY0,'url(#qt_tl)'); rc(cx,MY0,MX1-cx,cy-MY0,'url(#qt_tr)');
