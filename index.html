@@ -5,10 +5,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 <style>
   html,body{margin:0;background:#000;}
-  @page{size:2248px 2780px;margin:0;}
+  @page{size:2568px 2780px;margin:0;}
   @media print{html,body{background:#000;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
     .board{margin:0 !important;box-shadow:none !important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}}
-  .board{position:relative;width:2240px;height:2720px;margin:24px auto;background:#000;
+  .board{position:relative;width:2560px;height:2720px;margin:24px auto;background:#000;
     color:#fff;font-family:'Google Sans Text','Google Sans',Helvetica,Arial,sans-serif;overflow:hidden;
     box-shadow:0 18px 60px rgba(0,0,0,.7);}
   .title{position:absolute;top:48px;left:60px;text-align:left;text-transform:uppercase;
@@ -16,19 +16,15 @@
     letter-spacing:-4px;color:#fff;}
   .subtitle{position:absolute;top:188px;right:64px;width:560px;text-align:right;
     font-size:19px;line-height:1.45;color:#9a9a9a;}
-  .axt{position:absolute;font-family:'Google Sans',sans-serif;font-size:18px;font-weight:700;
-    letter-spacing:3px;text-transform:uppercase;color:#ededed;white-space:nowrap;
+  .axt{position:absolute;font-family:'Google Sans',sans-serif;font-size:25px;font-weight:700;
+    letter-spacing:4px;text-transform:uppercase;color:#f2f2f2;white-space:nowrap;
     text-shadow:0 1px 10px #000;}
-  .axn{position:absolute;font-family:'Google Sans',sans-serif;font-size:13px;font-weight:700;
-    letter-spacing:6px;text-transform:uppercase;color:#7e8ca6;white-space:nowrap;
+  .axn{position:absolute;font-family:'Google Sans',sans-serif;font-size:17px;font-weight:700;
+    letter-spacing:8px;text-transform:uppercase;color:#8492ac;white-space:nowrap;
     text-shadow:0 1px 8px #000;}
   .ql{position:absolute;font-family:'Google Sans',sans-serif;color:#fff;pointer-events:none;}
-  .ql i{display:inline-block;width:58px;height:4px;border-radius:2px;margin-bottom:13px;}
-  .ql b{display:block;font-weight:700;font-size:34px;letter-spacing:-0.5px;line-height:1;
-    text-transform:uppercase;text-shadow:0 2px 16px #000;}
-  .ql span{display:block;font-family:'Google Sans Text',sans-serif;font-size:14px;
-    color:#909090;margin-top:8px;letter-spacing:0;text-transform:none;line-height:1.3;
-    text-shadow:0 1px 8px #000;}
+  .ql b{display:block;font-weight:700;font-size:48px;letter-spacing:-1px;line-height:.98;
+    text-transform:uppercase;text-shadow:0 2px 18px #000;}
   .item{position:absolute;display:flex;flex-direction:column;align-items:center;}
   .glow{position:absolute;left:50%;top:42%;transform:translate(-50%,-50%);z-index:0;
     background:radial-gradient(ellipse at center,rgba(255,255,255,.20),rgba(255,255,255,0) 70%);}
@@ -66,8 +62,8 @@
 <script>
 const M=window.MATRIX, board=document.getElementById("board");
 const NS="http://www.w3.org/2000/svg";
-const BW=2240, BH=2720;
-const MX0=380, MX1=1780, MY0=300, MY1=2040;
+const BW=2560, BH=2720;
+const MX0=380, MX1=2180, MY0=300, MY1=2040;
 const cx=(MX0+MX1)/2, cy=(MY0+MY1)/2;
 const HERO={ "wild-animal":116,robots:106,parrot:98,brain:108,overlord:118,hurricane:108,"black-box":92,genie:84,midas:98,pandora:94,"domestic-animal":108,god:94,"guardian-angel":94,singularity:104,"job-killer":108,"ai-lover":104,"code-monkey":96,golem:104,frankenstein:102,"ghost-work":104,centaur:106,alchemy:98,electricity:96,cyborg:98,intern:96,bullshitter:110,eliza:92 };
 const svg=document.createElementNS(NS,"svg");
@@ -98,23 +94,23 @@ function el(html){const t=document.createElement("template");t.innerHTML=html.tr
 const _tw=M.meta.title.split(' '); el('<div class="title">'+_tw[0]+'<br>'+_tw.slice(1).join(' ')+'</div>');
 el('<div class="subtitle">'+M.meta.subtitle+' <span class="cite">['+(M.meta.frameRefs||[M.meta.frameRef]).join(', ')+']</span></div>');
 // vertical axis (Threat): axis name at the upper arrow tip, poles top & bottom
-el('<div class="axn" style="top:'+(MY0-94)+'px;left:0;width:100%;text-align:center;">'+M.meta.axes.y.name+'</div>');
-el('<div class="axt" style="top:'+(MY0-62)+'px;left:0;width:100%;text-align:center;">'+M.meta.axes.y.high+'</div>');
-el('<div class="axt" style="top:'+(MY1+44)+'px;left:0;width:100%;text-align:center;">'+M.meta.axes.y.low+'</div>');
+el('<div class="axn" style="top:'+(MY0-112)+'px;left:0;width:100%;text-align:center;">'+M.meta.axes.y.name+'</div>');
+el('<div class="axt" style="top:'+(MY0-72)+'px;left:0;width:100%;text-align:center;">'+M.meta.axes.y.high+'</div>');
+el('<div class="axt" style="top:'+(MY1+50)+'px;left:0;width:100%;text-align:center;">'+M.meta.axes.y.low+'</div>');
 // horizontal axis (Potency): axis name at the right arrow tip, poles left & right
-el('<div class="axt" style="top:'+(cy-34)+'px;left:'+(MX0-2)+'px;">'+M.meta.axes.x.low+'</div>');
-el('<div class="axn" style="top:'+(cy-62)+'px;left:'+(MX1-260)+'px;width:260px;text-align:right;">'+M.meta.axes.x.name+'</div>');
-el('<div class="axt" style="top:'+(cy-34)+'px;left:'+(MX1-260)+'px;width:260px;text-align:right;">'+M.meta.axes.x.high+'</div>');
-const QP={blind_force:[MX0+16,MY0+12,'left','#d9912f'],overlord:[MX1-16,MY0+12,'right','#d24242'],humble_tool:[MX0+16,MY1-150,'left','#4a7fe0'],protector:[MX1-16,MY1-150,'right','#2bb0a0']};
+el('<div class="axt" style="top:'+(cy-40)+'px;left:'+(MX0-2)+'px;">'+M.meta.axes.x.low+'</div>');
+el('<div class="axn" style="top:'+(cy-74)+'px;left:'+(MX1-320)+'px;width:320px;text-align:right;">'+M.meta.axes.x.name+'</div>');
+el('<div class="axt" style="top:'+(cy-40)+'px;left:'+(MX1-320)+'px;width:320px;text-align:right;">'+M.meta.axes.x.high+'</div>');
+const QP={blind_force:[MX0+16,MY0+18,'left'],overlord:[MX1-16,MY0+18,'right'],humble_tool:[MX0+16,MY1-128,'left'],protector:[MX1-16,MY1-128,'right']};
 for(const k in M.meta.quadrants){const q=M.meta.quadrants[k],p=QP[k];
-  const pos=p[2]=='left'?'left:'+p[0]+'px;text-align:left;':'left:'+(p[0]-320)+'px;width:320px;text-align:right;';
-  el('<div class="ql" style="top:'+p[1]+'px;'+pos+'"><i style="background:'+p[3]+';"></i><b>'+q.label+'</b><span>'+q.note+'</span></div>');}
+  const pos=p[2]=='left'?'left:'+p[0]+'px;width:400px;text-align:left;':'left:'+(p[0]-400)+'px;width:400px;text-align:right;';
+  el('<div class="ql" style="top:'+p[1]+'px;'+pos+'"><b>'+q.label+'</b></div>');}
 el('<div class="foot">Charlie Stein &amp; Alexander Doudkin, 2026  ·  inspired by Disnovation.org  ·  image credits in the accompanying essay</div>');
-el('<div style="position:absolute;left:52px;top:2120px;width:2136px;height:1px;background:#2b2b2b;"></div>');
+el('<div style="position:absolute;left:52px;top:2120px;width:2456px;height:1px;background:#2b2b2b;"></div>');
 el('<div class="refhead" style="left:52px;top:2140px;">References &amp; further reading</div>');
 el('<div class="refnote" style="left:412px;top:2142px;width:1400px;">The metaphors are drawn from the literature; each entry lists a source and a short link to it.</div>');
 (function(){const c=document.createElement("div");
-  c.style.cssText="position:absolute;left:52px;top:2180px;width:2136px;column-count:5;column-gap:38px;";
+  c.style.cssText="position:absolute;left:52px;top:2180px;width:2456px;column-count:6;column-gap:38px;";
   M.meta.bibliography.forEach(b=>{const e=document.createElement("div");e.className="bibentry";
     e.innerHTML='<span class="bn">['+b.n+']</span> '+b.ref+(b.link?' <a class="bln" href="'+(b.url||('https://'+b.link))+'">'+b.link+'</a>':'');c.appendChild(e);});
   board.appendChild(c);})();
@@ -129,12 +125,12 @@ pts.forEach(o=>{const im=new Image();o.img=im;
   im.src=o.p.image_cutout;});
 function layout(){
   const OBST=[
-    [MX0+8,MY0+2,MX0+372,MY0+150],    // top-left  Inept tool
-    [MX1-392,MY0+2,MX1-8,MY0+150],    // top-right Menacing overlord
-    [MX0+8,MY1-160,MX0+392,MY1-2],    // bot-left  Humble servant
-    [MX1-420,MY1-160,MX1-8,MY1-2],    // bot-right Omnipotent protector
-    [MX0-6,cy-48,MX0+150,cy+12],      // axis label: WEAK
-    [MX1-204,cy-78,MX1+6,cy+12],      // axis label: OMNIPOTENT + POTENCY
+    [MX0+8,MY0+2,MX0+400,MY0+150],    // top-left  Inept tool
+    [MX1-400,MY0+2,MX1-8,MY0+150],    // top-right Menacing overlord
+    [MX0+8,MY1-150,MX0+400,MY1-2],    // bot-left  Humble servant
+    [MX1-400,MY1-150,MX1-8,MY1-2],    // bot-right Omnipotent protector
+    [MX0-6,cy-54,MX0+200,cy+16],      // axis label: WEAK
+    [MX1-240,cy-88,MX1+6,cy+16],      // axis label: OMNIPOTENT + POTENCY
   ];
   for(let it=0;it<560;it++){
     for(const a of pts){a.cxp+=(a.tx-a.cxp)*0.05; a.cyp+=(a.ty-a.cyp)*0.05;}
@@ -167,7 +163,7 @@ function layout(){
   }
   ["left","right"].forEach(side=>{
     const col=M.points.filter(p=>p.side===side).sort((a,b)=>a.number-b.number);
-    const X= side==="left" ? 52 : 1800;
+    const X= side==="left" ? 52 : 2216;
     const wrap=document.createElement("div");
     wrap.style.cssText="position:absolute;left:"+X+"px;top:334px;width:292px;";
     col.forEach(p=>{
