@@ -16,12 +16,19 @@
     letter-spacing:-4px;color:#fff;}
   .subtitle{position:absolute;top:188px;right:64px;width:560px;text-align:right;
     font-size:19px;line-height:1.45;color:#9a9a9a;}
-  .axt{position:absolute;font-family:'Google Sans',sans-serif;font-size:15px;font-weight:600;
-    letter-spacing:2.5px;text-transform:uppercase;color:#bcbcbc;white-space:nowrap;}
+  .axt{position:absolute;font-family:'Google Sans',sans-serif;font-size:18px;font-weight:700;
+    letter-spacing:3px;text-transform:uppercase;color:#ededed;white-space:nowrap;
+    text-shadow:0 1px 10px #000;}
+  .axn{position:absolute;font-family:'Google Sans',sans-serif;font-size:13px;font-weight:700;
+    letter-spacing:6px;text-transform:uppercase;color:#7e8ca6;white-space:nowrap;
+    text-shadow:0 1px 8px #000;}
   .ql{position:absolute;font-family:'Google Sans',sans-serif;color:#fff;pointer-events:none;}
-  .ql b{display:block;font-weight:700;font-size:25px;letter-spacing:0;text-transform:uppercase;}
-  .ql span{display:block;font-family:'Google Sans Text',sans-serif;font-size:13px;
-    color:#787878;margin-top:4px;letter-spacing:0;text-transform:none;}
+  .ql i{display:inline-block;width:58px;height:4px;border-radius:2px;margin-bottom:13px;}
+  .ql b{display:block;font-weight:700;font-size:34px;letter-spacing:-0.5px;line-height:1;
+    text-transform:uppercase;text-shadow:0 2px 16px #000;}
+  .ql span{display:block;font-family:'Google Sans Text',sans-serif;font-size:14px;
+    color:#909090;margin-top:8px;letter-spacing:0;text-transform:none;line-height:1.3;
+    text-shadow:0 1px 8px #000;}
   .item{position:absolute;display:flex;flex-direction:column;align-items:center;}
   .glow{position:absolute;left:50%;top:42%;transform:translate(-50%,-50%);z-index:0;
     background:radial-gradient(ellipse at center,rgba(255,255,255,.20),rgba(255,255,255,0) 70%);}
@@ -67,26 +74,41 @@ const svg=document.createElementNS(NS,"svg");
 svg.setAttribute("width",BW); svg.setAttribute("height",BH);
 svg.style.cssText="position:absolute;top:0;left:0;pointer-events:none";
 board.appendChild(svg);
+// quadrant tint fields — make the four attitudes read as distinct zones
+(function(){const td=document.createElementNS(NS,"defs");
+  const QT=[['tl',MX0,MY0,'217,145,47'],['tr',MX1,MY0,'210,66,66'],
+    ['bl',MX0,MY1,'74,127,224'],['br',MX1,MY1,'43,176,160']];
+  td.innerHTML=QT.map(q=>'<radialGradient id="qt_'+q[0]+'" gradientUnits="userSpaceOnUse" cx="'+q[1]+'" cy="'+q[2]+'" r="1180"><stop offset="0" stop-color="rgb('+q[3]+')" stop-opacity="0.17"/><stop offset="52%" stop-color="rgb('+q[3]+')" stop-opacity="0.045"/><stop offset="100%" stop-color="rgb('+q[3]+')" stop-opacity="0"/></radialGradient>').join('');
+  svg.appendChild(td);
+  function rc(x,y,w,h,f){const r=document.createElementNS(NS,"rect");r.setAttribute("x",x);r.setAttribute("y",y);r.setAttribute("width",w);r.setAttribute("height",h);r.setAttribute("fill",f);svg.appendChild(r);}
+  rc(MX0,MY0,cx-MX0,cy-MY0,'url(#qt_tl)'); rc(cx,MY0,MX1-cx,cy-MY0,'url(#qt_tr)');
+  rc(MX0,cy,cx-MX0,MY1-cy,'url(#qt_bl)'); rc(cx,cy,MX1-cx,MY1-cy,'url(#qt_br)');
+})();
 function ln(x1,y1,x2,y2,st,w,extra){const l=document.createElementNS(NS,"line");
   l.setAttribute("x1",x1);l.setAttribute("y1",y1);l.setAttribute("x2",x2);l.setAttribute("y2",y2);
   l.setAttribute("stroke",st);l.setAttribute("stroke-width",w);if(extra)for(const k in extra)l.setAttribute(k,extra[k]);svg.appendChild(l);}
 for(let x=MX0;x<=MX1+0.5;x+=38) ln(x,MY0,x,MY1,"rgba(255,255,255,0.05)",1);
 for(let y=MY0;y<=MY1+0.5;y+=38) ln(MX0,y,MX1,y,"rgba(255,255,255,0.05)",1);
 const defs=document.createElementNS(NS,"defs");
-defs.innerHTML='<marker id="ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M2 2L8 5L2 8" fill="none" stroke="#777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>';
+defs.innerHTML='<marker id="ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M2 2L8 5L2 8" fill="none" stroke="#cfcfcf" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>';
 svg.appendChild(defs);
-ln(cx,MY0-14,cx,MY1+14,"#555",1.6,{"marker-start":"url(#ah)","marker-end":"url(#ah)"});
-ln(MX0-14,cy,MX1+14,cy,"#555",1.6,{"marker-start":"url(#ah)","marker-end":"url(#ah)"});
+ln(cx,MY0-14,cx,MY1+14,"rgba(255,255,255,0.34)",2,{"marker-start":"url(#ah)","marker-end":"url(#ah)"});
+ln(MX0-14,cy,MX1+14,cy,"rgba(255,255,255,0.34)",2,{"marker-start":"url(#ah)","marker-end":"url(#ah)"});
 function el(html){const t=document.createElement("template");t.innerHTML=html.trim();board.appendChild(t.content.firstChild);}
 const _tw=M.meta.title.split(' '); el('<div class="title">'+_tw[0]+'<br>'+_tw.slice(1).join(' ')+'</div>');
 el('<div class="subtitle">'+M.meta.subtitle+' <span class="cite">['+(M.meta.frameRefs||[M.meta.frameRef]).join(', ')+']</span></div>');
-el('<div class="axt" style="top:'+(MY0-58)+'px;left:0;width:100%;text-align:center;">'+M.meta.axes.y.high+'</div>');
-el('<div class="axt" style="top:'+(MY1+46)+'px;left:0;width:100%;text-align:center;">'+M.meta.axes.y.low+'</div>');
+// vertical axis (Threat): axis name at the upper arrow tip, poles top & bottom
+el('<div class="axn" style="top:'+(MY0-94)+'px;left:0;width:100%;text-align:center;">'+M.meta.axes.y.name+'</div>');
+el('<div class="axt" style="top:'+(MY0-62)+'px;left:0;width:100%;text-align:center;">'+M.meta.axes.y.high+'</div>');
+el('<div class="axt" style="top:'+(MY1+44)+'px;left:0;width:100%;text-align:center;">'+M.meta.axes.y.low+'</div>');
+// horizontal axis (Potency): axis name at the right arrow tip, poles left & right
 el('<div class="axt" style="top:'+(cy-34)+'px;left:'+(MX0-2)+'px;">'+M.meta.axes.x.low+'</div>');
-el('<div class="axt" style="top:'+(cy-34)+'px;left:'+(MX1-200)+'px;width:200px;text-align:right;">'+M.meta.axes.x.high+'</div>');
-const QP={blind_force:[MX0+16,MY0+8,'left'],overlord:[MX1-16,MY0+8,'right'],humble_tool:[MX0+16,MY1-60,'left'],protector:[MX1-16,MY1-60,'right']};
+el('<div class="axn" style="top:'+(cy-62)+'px;left:'+(MX1-260)+'px;width:260px;text-align:right;">'+M.meta.axes.x.name+'</div>');
+el('<div class="axt" style="top:'+(cy-34)+'px;left:'+(MX1-260)+'px;width:260px;text-align:right;">'+M.meta.axes.x.high+'</div>');
+const QP={blind_force:[MX0+16,MY0+12,'left','#d9912f'],overlord:[MX1-16,MY0+12,'right','#d24242'],humble_tool:[MX0+16,MY1-150,'left','#4a7fe0'],protector:[MX1-16,MY1-150,'right','#2bb0a0']};
 for(const k in M.meta.quadrants){const q=M.meta.quadrants[k],p=QP[k];
-  el('<div class="ql" style="top:'+p[1]+'px;'+(p[2]=='left'?'left:'+p[0]+'px;text-align:left;':'left:'+(p[0]-260)+'px;width:260px;text-align:right;')+'"><b>'+q.label+'</b><span>'+q.note+'</span></div>');}
+  const pos=p[2]=='left'?'left:'+p[0]+'px;text-align:left;':'left:'+(p[0]-320)+'px;width:320px;text-align:right;';
+  el('<div class="ql" style="top:'+p[1]+'px;'+pos+'"><i style="background:'+p[3]+';"></i><b>'+q.label+'</b><span>'+q.note+'</span></div>');}
 el('<div class="foot">Charlie Stein &amp; Alexander Doudkin, 2026  ·  inspired by Disnovation.org  ·  image credits in the accompanying essay</div>');
 el('<div style="position:absolute;left:52px;top:2120px;width:2136px;height:1px;background:#2b2b2b;"></div>');
 el('<div class="refhead" style="left:52px;top:2140px;">References &amp; further reading</div>');
@@ -107,12 +129,12 @@ pts.forEach(o=>{const im=new Image();o.img=im;
   im.src=o.p.image_cutout;});
 function layout(){
   const OBST=[
-    [MX0+8,MY0+2,MX0+330,MY0+106],    // top-left  (Silly tool)
-    [MX1-400,MY0+2,MX1-8,MY0+106],    // top-right (Menacing overlord)
-    [MX0+8,MY1-106,MX0+370,MY1-2],    // bot-left  (Humble servant)
-    [MX1-440,MY1-106,MX1-8,MY1-2],    // bot-right (Omnipotent protector)
-    [MX0-6,cy-48,MX0+120,cy+12],      // axis label: WEAK
-    [MX1-184,cy-48,MX1+6,cy+12],      // axis label: OMNIPOTENT
+    [MX0+8,MY0+2,MX0+372,MY0+150],    // top-left  Inept tool
+    [MX1-392,MY0+2,MX1-8,MY0+150],    // top-right Menacing overlord
+    [MX0+8,MY1-160,MX0+392,MY1-2],    // bot-left  Humble servant
+    [MX1-420,MY1-160,MX1-8,MY1-2],    // bot-right Omnipotent protector
+    [MX0-6,cy-48,MX0+150,cy+12],      // axis label: WEAK
+    [MX1-204,cy-78,MX1+6,cy+12],      // axis label: OMNIPOTENT + POTENCY
   ];
   for(let it=0;it<560;it++){
     for(const a of pts){a.cxp+=(a.tx-a.cxp)*0.05; a.cyp+=(a.ty-a.cyp)*0.05;}
